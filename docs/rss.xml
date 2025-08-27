@@ -1,5 +1,148 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>crqgxs&amp;blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>crqgxs&amp;blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/130044290?v=4</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Tue, 29 Jul 2025 09:27:24 +0000</lastBuildDate><managingEditor>crqgxs&amp;blog</managingEditor><ttl>60</ttl><webMaster>crqgxs&amp;blog</webMaster><item><title>人生哲理2025.7.29</title><link>http://blog.20210701.xyz/post/ren-sheng-zhe-li-2025.7.29.html</link><description>'你可以阴郁，可以懒散，可以不适时地计较，过分敏感，可以有些不知足、暴躁、嫉妒、小气，但要记得拷问自我，必须追求善良，尽力坦荡，永远正直'。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/ren-sheng-zhe-li-2025.7.29.html</guid><pubDate>Tue, 29 Jul 2025 02:14:48 +0000</pubDate></item><item><title>“知足者常乐”</title><link>http://blog.20210701.xyz/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</link><description>果然，晚饭后就下起了雨，但我在心里却很开心。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</guid><pubDate>Sat, 14 Jun 2025 15:57:08 +0000</pubDate></item><item><title>一个幽默的垃圾桶</title><link>http://blog.20210701.xyz/post/yi-ge-you-mo-de-la-ji-tong.html</link><description>![1JPG](https://blog.20210701.xyz/pVARssK.jpg)。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/yi-ge-you-mo-de-la-ji-tong.html</guid><pubDate>Sat, 14 Jun 2025 15:39:42 +0000</pubDate></item><item><title>《“躺平”也是一种艺术》</title><link>http://blog.20210701.xyz/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</link><description>躺平也是一种艺术
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>crqgxs&amp;blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>crqgxs&amp;blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/130044290?v=4</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Wed, 27 Aug 2025 19:23:44 +0000</lastBuildDate><managingEditor>crqgxs&amp;blog</managingEditor><ttl>60</ttl><webMaster>crqgxs&amp;blog</webMaster><item><title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title><link>http://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</link><description>第一步：创建管理脚本
+
+```bash
+# 创建脚本文件
+nano ~/bot-manager.sh
+```
+
+第二步：复制粘贴内容
+
+将以下内容完整复制粘贴到 nano 编辑器中：
+
+```bash
+#!/bin/bash
+
+case '$1' in
+    start)
+        echo '启动机器人服务...'
+        screen -dmS napcat bash -c 'proot-distro login napcat -- bash -c 'xvfb-run -a qq --no-sandbox''
+        screen -dmS astrobot bash -c 'proot-distro login ubuntu -- bash -c 'cd AstrBot &amp;&amp; uv run main.py''
+        echo '启动完成！'
+        ;;
+    stop)
+        echo '停止机器人服务...'
+        screen -S napcat -X quit 2&gt;/dev/null
+        screen -S astrobot -X quit 2&gt;/dev/null
+        echo '已停止'
+        ;;
+    restart)
+        $0 stop
+        sleep 3
+        $0 start
+        ;;
+    status)
+        echo '当前运行状态：'
+        screen -ls
+        ;;
+    napcat)
+        screen -r napcat
+        ;;
+    astrobot)
+        screen -r astrobot
+        ;;
+    *)
+        echo '使用方法: $0 {start|stop|restart|status|napcat|astrobot}'
+        echo '  start    - 启动所有服务'
+        echo '  stop     - 停止所有服务'
+        echo '  restart  - 重启所有服务'
+        echo '  status   - 查看状态'
+        echo '  napcat   - 连接到 NapCat'
+        echo '  astrobot - 连接到 AstrBot'
+        exit 1
+        ;;
+esac
+```
+
+第三步：保存文件
+
+按顺序按键：
+
+```
+Ctrl + X → Y → Enter
+```
+
+第四步：给脚本添加执行权限
+
+```bash
+chmod +x ~/bot-manager.sh
+```
+
+第五步：使用脚本管理机器人
+
+启动所有服务：
+
+```bash
+./bot-manager.sh start
+```
+
+停止所有服务：
+
+```bash
+./bot-manager.sh stop
+```
+
+查看运行状态：
+
+```bash
+./bot-manager.sh status
+```
+
+重启所有服务：
+
+```bash
+./bot-manager.sh restart
+```
+
+连接到 NapCat 控制台：
+
+```bash
+./bot-manager.sh napcat
+```
+
+（要退出控制台，按 Ctrl + A 然后按 D）
+
+连接到 AstrBot 控制台：
+
+```bash
+./bot-manager.sh astrobot
+```
+
+（要退出控制台，按 Ctrl + A 然后按 D）
+
+查看帮助信息：
+
+```bash
+./bot-manager.sh
+```
+
+或者
+
+```bash
+./bot-manager.sh help
+```
+
+使用示例流程：
+
+1. 第一次启动：
+   ```bash
+   ./bot-manager.sh start
+   ```
+2. 检查是否正常运行：
+   ```bash
+   ./bot-manager.sh status
+   ```
+3. 查看 NapCat 日志：
+   ```bash
+   ./bot-manager.sh napcat
+   # 看完后按 Ctrl+A, 然后按 D 退出
+   ```
+4. 停止服务：
+   ```bash
+   ./bot-manager.sh stop
+   ```
+
+这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</guid><pubDate>Wed, 27 Aug 2025 19:21:23 +0000</pubDate></item><item><title>人生哲理2025.7.29</title><link>http://blog.20210701.xyz/post/ren-sheng-zhe-li-2025.7.29.html</link><description>'你可以阴郁，可以懒散，可以不适时地计较，过分敏感，可以有些不知足、暴躁、嫉妒、小气，但要记得拷问自我，必须追求善良，尽力坦荡，永远正直'。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/ren-sheng-zhe-li-2025.7.29.html</guid><pubDate>Tue, 29 Jul 2025 02:14:48 +0000</pubDate></item><item><title>“知足者常乐”</title><link>http://blog.20210701.xyz/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</link><description>果然，晚饭后就下起了雨，但我在心里却很开心。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</guid><pubDate>Sat, 14 Jun 2025 15:57:08 +0000</pubDate></item><item><title>一个幽默的垃圾桶</title><link>http://blog.20210701.xyz/post/yi-ge-you-mo-de-la-ji-tong.html</link><description>![1JPG](https://blog.20210701.xyz/pVARssK.jpg)。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/yi-ge-you-mo-de-la-ji-tong.html</guid><pubDate>Sat, 14 Jun 2025 15:39:42 +0000</pubDate></item><item><title>《“躺平”也是一种艺术》</title><link>http://blog.20210701.xyz/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</link><description>躺平也是一种艺术
 近年来，一种新生代的生活态度在年轻人中逐渐兴起，那就是“躺平”。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</guid><pubDate>Sat, 14 Jun 2025 12:24:57 +0000</pubDate></item><item><title>关于我</title><link>http://blog.20210701.xyz/about.html</link><description>#### 一、介绍
 
 本人在校就读法学类，从初中开始便常在网上冲浪了解了一些东西。</description><guid isPermaLink="true">http://blog.20210701.xyz/about.html</guid><pubDate>Sat, 14 Jun 2025 13:08:22 +0000</pubDate></item><item><title>左邻右舍</title><link>http://blog.20210701.xyz/link.html</link><description>有趣的朋友们*^_^*
