@@ -1,5 +1,83 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>crqgxs&amp;blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>crqgxs&amp;blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Mon, 24 Nov 2025 15:13:25 +0000</lastBuildDate><managingEditor>crqgxs&amp;blog</managingEditor><ttl>60</ttl><webMaster>crqgxs&amp;blog</webMaster><item><title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title><link>http://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</link><description>第一步：创建管理脚本
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>crqgxs&amp;blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>crqgxs&amp;blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Thu, 27 Nov 2025 01:59:59 +0000</lastBuildDate><managingEditor>crqgxs&amp;blog</managingEditor><ttl>60</ttl><webMaster>crqgxs&amp;blog</webMaster><item><title>民法物权框架思维导图</title><link>http://blog.20210701.xyz/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</link><description># **民法物权框架思维导图**
+## **一、物权总论**
+### **1. 物权的概念**
+- **物权的定义**
+- **物权的特征**
+### **2. 物权的种类**
+- **自物权与他物权**
+- **用益物权与担保物权**
+### **3. 物权的效力**
+- **排他效力**
+- **优先效力**
+- **追及效力**
+### **4. 物权的变动**
+- **物权变动的原因**
+- **物权变动的公示**
+- **物权变动的原则**
+
+## **二、所有权**
+### **1. 所有权的概念**
+- **所有权的定义**
+- **所有权的特征**
+### **2. 所有权的取得**
+- **原始取得**
+- **继受取得**
+### **3. 所有权的行使**
+- **所有权的权能**
+- **所有权的限制**
+### **4. 共有**
+- **按份共有**
+- **共同共有**
+
+## **三、用益物权**
+### **1. 用益物权的概念**
+- **用益物权的定义**
+- **用益物权的特征**
+### **2. 土地承包经营权**
+- **土地承包经营权的设立**
+- **土地承包经营权的流转**
+### **3. 建设用地使用权**
+- **建设用地使用权的设立**
+- **建设用地使用权的期限**
+### **4. 宅基地使用权**
+- **宅基地使用权的取得、行使和转让**
+- **宅基地使用权的限制**
+- **宅基地使用权的消灭**
+### **5.居住权**
+- **居住权合同**
+- **居住权的设立**
+- **居住权的消灭**
+### **6. 地役权**
+- **地役权的设立**
+- **地役权的效力**
+
+## **四、担保物权**
+### **1. 担保物权的概念**
+- **担保物权的定义**
+- **担保物权的特征**
+### **2. 抵押权**
+- **抵押权的设立**
+- **抵押权的效力**
+- **抵押权的实现**
+### **3. 质权**
+- **动产质权**
+- **权利质权**
+### **4. 留置权**
+- **留置权的成立**
+- **留置权的效力**
+- **留置权的实现**
+
+## **五、占有**
+### **1. 占有的概念**
+- **占有的定义**
+- **占有的分类**
+### **2. 占有的效力**
+- **占有的保护**
+- **占有的推定**
+### **3. 占有的取得与消灭**
+- **占有的取得**
+- **占有的消灭**。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</guid><pubDate>Thu, 27 Nov 2025 01:57:54 +0000</pubDate></item><item><title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title><link>http://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</link><description>第一步：创建管理脚本
 
 ```bash
 # 创建脚本文件
