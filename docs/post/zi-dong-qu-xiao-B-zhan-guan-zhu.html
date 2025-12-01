@@ -98,8 +98,8 @@ tscon %session_id% /dest:console
 
 endlocal
 </code></pre>
-<p>以下是取消关注js文件<br>
-版本一</p>
+<h3>批量取消关注</h3>
+<h4>版本一，自动翻页</h4>
 <pre class="notranslate"><code class="notranslate">(async () =&gt; {
   // 等待函数
   const sleep = (s) =&gt; new Promise(resolve =&gt; setTimeout(resolve, s * 1000));
@@ -251,7 +251,7 @@ endlocal
   }
 })();
 </code></pre>
-<p>版本二</p>
+<h4>版本二</h4>
 <pre class="notranslate"><code class="notranslate">(async () =&gt; {
   const sleep = (ms) =&gt; new Promise(resolve =&gt; setTimeout(resolve, ms * 1000));
   let data = document.querySelectorAll('.follow-btn__trigger.gray');
@@ -282,6 +282,37 @@ endlocal
     }
   }
   console.log('已取消全部关注');
+})();
+</code></pre>
+<h3>批量移除粉丝</h3>
+<pre class="notranslate"><code class="notranslate">(async () =&gt; {
+    const sleep = (s) =&gt; new Promise(resolve =&gt; setTimeout(resolve, s * 1000));
+    for (var i = 0; i &lt; 100; i++) {
+        try {
+            var parent = document.getElementsByClassName('vui_icon sic-BDC-more_vertical_fill icon')[0];
+            var enterEvent = new MouseEvent('mouseenter', {
+                bubbles: true,   // 允许事件冒泡
+                cancelable: true, // 事件可被取消
+                view: window      // 关联当前窗口
+            });
+            parent.dispatchEvent(enterEvent);
+            var menuItems = document.getElementsByClassName('menu-popover__panel-item');
+            for (var j = 0; j &lt; menuItems.length; j++) {
+                if (menuItems[j].innerText === '移除粉丝') {
+                    console.log("成功移除粉丝");
+                    menuItems[j].click();
+                }
+            }
+            // 模拟鼠标离开（可选）
+            const leaveEvent = new MouseEvent('mouseleave', { bubbles: true, cancelable: true });
+            parent.dispatchEvent(leaveEvent);
+            document.getElementsByClassName('vui_checkbox--label')[0].click();
+            document.getElementsByClassName('vui_button vui_button--blue vui_dialog--btn vui_dialog--btn-confirm')[0].click();
+        } catch (error) {
+        }
+        await sleep(1);   // 等待1秒防触发风控
+    }
+    console.log('清理完毕！重新执行脚本');
 })();
 </code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>

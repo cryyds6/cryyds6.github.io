@@ -15,8 +15,8 @@ tscon %session_id% /dest:console
 endlocal
 ```
 
-以下是取消关注js文件
-版本一
+### 批量取消关注
+#### 版本一，自动翻页
 ```
 (async () => {
   // 等待函数
@@ -170,7 +170,7 @@ endlocal
 })();
 ```
 
-版本二
+#### 版本二
 ```
 (async () => {
   const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms * 1000));
@@ -202,5 +202,37 @@ endlocal
     }
   }
   console.log('已取消全部关注');
+})();
+```
+### 批量移除粉丝
+```
+(async () => {
+    const sleep = (s) => new Promise(resolve => setTimeout(resolve, s * 1000));
+    for (var i = 0; i < 100; i++) {
+        try {
+            var parent = document.getElementsByClassName('vui_icon sic-BDC-more_vertical_fill icon')[0];
+            var enterEvent = new MouseEvent('mouseenter', {
+                bubbles: true,   // 允许事件冒泡
+                cancelable: true, // 事件可被取消
+                view: window      // 关联当前窗口
+            });
+            parent.dispatchEvent(enterEvent);
+            var menuItems = document.getElementsByClassName('menu-popover__panel-item');
+            for (var j = 0; j < menuItems.length; j++) {
+                if (menuItems[j].innerText === '移除粉丝') {
+                    console.log("成功移除粉丝");
+                    menuItems[j].click();
+                }
+            }
+            // 模拟鼠标离开（可选）
+            const leaveEvent = new MouseEvent('mouseleave', { bubbles: true, cancelable: true });
+            parent.dispatchEvent(leaveEvent);
+            document.getElementsByClassName('vui_checkbox--label')[0].click();
+            document.getElementsByClassName('vui_button vui_button--blue vui_dialog--btn vui_dialog--btn-confirm')[0].click();
+        } catch (error) {
+        }
+        await sleep(1);   // 等待1秒防触发风控
+    }
+    console.log('清理完毕！重新执行脚本');
 })();
 ```
