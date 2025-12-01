@@ -1,19 +1,4 @@
 浏览器打开B站关注页面，打开浏览器控制台，输入以下脚本即可。如果有报错或繁忙刷新重新开始就行。
-如果是服务器挂可以用这个持续窗口bat
-```
-@echo off
-setlocal enabledelayedexpansion
-
-rem 查询 RDP 会话获取目标会话的 ID
-for /f "tokens=3" %%a in ('query session ^| findstr /i "rdp-tcp#"') do (
-    set session_id=%%a
-)
-
-rem 断开 RDP 会话并将连接重定向到控制台
-tscon %session_id% /dest:console
-
-endlocal
-```
 
 ### 批量取消关注
 #### 版本一，自动翻页
@@ -235,4 +220,21 @@ endlocal
     }
     console.log('清理完毕！重新执行脚本');
 })();
+```
+
+
+如果是服务器挂可以用这个持续窗口bat
+```
+@echo off
+setlocal enabledelayedexpansion
+
+rem 查询 RDP 会话获取目标会话的 ID
+for /f "tokens=3" %%a in ('query session ^| findstr /i "rdp-tcp#"') do (
+    set session_id=%%a
+)
+
+rem 断开 RDP 会话并将连接重定向到控制台
+tscon %session_id% /dest:console
+
+endlocal
 ```
