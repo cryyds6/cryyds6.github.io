@@ -83,7 +83,22 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>浏览器打开B站关注页面，打开浏览器控制台，输入以下脚本即可。如果有报错或繁忙刷新重新开始就行。</p>
+<div class="markdown-body" id="postBody"><p>浏览器打开B站关注页面，打开浏览器控制台，输入以下脚本即可。如果有报错或繁忙刷新重新开始就行。<br>
+如果是服务器挂可以用这个持续窗口bat</p>
+<pre class="notranslate"><code class="notranslate">@echo off
+setlocal enabledelayedexpansion
+
+rem 查询 RDP 会话获取目标会话的 ID
+for /f "tokens=3" %%a in ('query session ^| findstr /i "rdp-tcp#"') do (
+    set session_id=%%a
+)
+
+rem 断开 RDP 会话并将连接重定向到控制台
+tscon %session_id% /dest:console
+
+endlocal
+</code></pre>
+<p>以下是取消关注js文件</p>
 <pre class="notranslate"><code class="notranslate">(async () =&gt; {
   // 等待函数
   const sleep = (s) =&gt; new Promise(resolve =&gt; setTimeout(resolve, s * 1000));
