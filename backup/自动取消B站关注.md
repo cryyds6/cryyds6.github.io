@@ -16,6 +16,7 @@ endlocal
 ```
 
 以下是取消关注js文件
+版本一
 ```
 (async () => {
   // 等待函数
@@ -167,4 +168,33 @@ endlocal
     console.log('建议刷新页面后重新执行脚本');
   }
 })();
+```
+
+版本二
+```
+function f() {
+    let ii = 0;
+    let delayed = 1500;//暂停1.5秒
+    const xx = $(".be-dropdown-item:contains('取消关注')");
+    console.log("本页关注了", xx.length, "个up主！");
+    let tt = setInterval(unfollow, delayed); // 暂停多少毫秒，再执行下一次点击，时间间隔增加一点儿变化
+    //取消关注
+    function unfollow() {
+        if (0 <= ii && ii < xx.length) {
+            xx[ii].click(); // 自动点击【取消关注】
+            ii++;
+            delayed = ii * 488;
+            clearInterval(tt); // 停止批量操作
+            tt = setInterval(unfollow, delayed);//开启批量操作
+        } else {
+            clearInterval(tt); // 停止批量操作
+            console.log("OK！你已取消了对本页所有up主的关注！");
+            const nextPage = $(".be-pager-next");//下一页
+            nextPage.click();
+            setTimeout(f, 7000);//开启批量操作
+        }
+    }
+}
+
+f()
 ```
