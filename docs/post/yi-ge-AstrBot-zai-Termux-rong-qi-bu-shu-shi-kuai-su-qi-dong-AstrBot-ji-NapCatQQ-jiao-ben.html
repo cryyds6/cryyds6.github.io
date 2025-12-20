@@ -153,7 +153,18 @@ chmod +x ~/bot-manager.sh
    ./bot-manager.sh stop
    ```
 
-这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！。">
+这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！
+
+在linux一件脚本下的启动命令
+1. 基础持续启动（指定QQ）：输入命令后，程序后台持续运行，断开终端也不受影响
+ ```
+napcat start 你的QQ号
+```
+​
+2. 配置开机自启（彻底无忧，长期运行必配）：配置后服务器重启也会自动启动NapCatQQ
+```
+napcat startup 你的QQ号
+```。">
 <meta property="og:title" content="一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本">
 <meta property="og:description" content="第一步：创建管理脚本
 
@@ -298,7 +309,18 @@ chmod +x ~/bot-manager.sh
    ./bot-manager.sh stop
    ```
 
-这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！。">
+这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！
+
+在linux一件脚本下的启动命令
+1. 基础持续启动（指定QQ）：输入命令后，程序后台持续运行，断开终端也不受影响
+ ```
+napcat start 你的QQ号
+```
+​
+2. 配置开机自启（彻底无忧，长期运行必配）：配置后服务器重启也会自动启动NapCatQQ
+```
+napcat startup 你的QQ号
+```。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html">
 <meta property="og:image" content="https://blog.20210701.xyz/130044290.png">
@@ -456,7 +478,16 @@ nano <span class="pl-k">~</span>/bot-manager.sh</pre></div>
 <div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh stop</pre></div>
 </li>
 </ol>
-<p>这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！</p></div>
+<p>这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！</p>
+<p>在linux一件脚本下的启动命令<br>
+1. 基础持续启动（指定QQ）：输入命令后，程序后台持续运行，断开终端也不受影响<br>
+ ```<br>
+napcat start 你的QQ号</p>
+<pre class="notranslate"><code class="notranslate">​
+2. 配置开机自启（彻底无忧，长期运行必配）：配置后服务器重启也会自动启动NapCatQQ
+</code></pre>
+<p>napcat startup 你的QQ号</p>
+<pre class="notranslate"><code class="notranslate"></code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
