@@ -42,10 +42,8 @@ IPv6 优先 , 工作模式: 全局
 此时除了不能通过 IPv4 访问该机器，则与普通 VPS 无异，拥有 IPv4 出口，及可以通过 IPv6 的全部端口访问该 VPS（前提是访问拥有 IPv6 地址）。
 
 ### 3.搭建 1Panel 面板
-进入 1Panel 官方安装文档页，根据 VPS 系统，复制指令，笔者的 VPS 系统是 Debian 12，使用如下指令
+进入 1Panel 官方安装文档页，根据 VPS 系统，复制指令，笔者的 VPS 系统是 Ubuntu-22.04-x64，使用如下指令
 
-```
-curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && bash quick_start.sh
 ```
 官网通用一键脚本
 ```
