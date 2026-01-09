@@ -49,7 +49,6 @@ IPv6 优先 , 工作模式: 全局
 官网通用一键脚本
 ```
 bash -c "$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_start.sh)"
-
 ```
 按照过程中会交互式提示端口、面板入口、用户名及密码，需要注意，请将面板端口设置为 Cloudflare CDN 支持的 http 端口，建议端口如下。
 
