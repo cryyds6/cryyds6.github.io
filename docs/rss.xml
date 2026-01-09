@@ -1,5 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Thu, 08 Jan 2026 23:25:47 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>通过 Cloudflare 为纯IPv6 VPS 1Panel搭建网站</title><link>http://blog.20210701.xyz/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</link><description>尽量使用Ubuntu-22.04及以上
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Fri, 09 Jan 2026 07:54:03 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>酒馆实用插件推荐</title><link>http://blog.20210701.xyz/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</link><description># SillyTaverm实用插件&amp;资源推荐
+
+## 1. 酒馆助手 (Tavern-Helper)
+**作者**：@𝚔𝚊𝚔𝚊𝚊🫠、@青空莉正辟谣
+**简介**：为 SillyTavern 设计的多功能扩展，支持：
+- 在对话中渲染交互式界面（从按钮到复杂游戏界面）
+- 用 jQuery 操作 SillyTavern DOM（修改样式、绑定事件等）
+- 作为中间层连接 SillyTavern 与外部应用，实现数据/功能联动
+
+**安装文档**：
+https://n0vi028.github.io/JS-Slash-Runner-Doc/guide/%E5%85%B3%E4%BA%8E%E9%85%92%E9%A6%86%E5%8A%A9%E6%89%8B/%E4%BB%8B%E7%BB%8D.html
+
+
+## 2. Amily2号助手（总结工具）
+**作者**：诗与酒
+
+**安装文档**：
+https://docs.google.com/document/d/11E7HIFg59up0afv-lV0cAF5G3jzJXCkZK8cBCOMZ9zo/edit?pli=1&amp;tab=t.r4ubeptit1eg#heading=h.a8ivijtjuxkv
+
+
+## 3. 记忆表格（长期聊卡防忘事）
+**作者/贡献者**：木悠、蒜鸟、独奏、LSR、阿不思、孤辰辰、Tt
+**简介**：增强 SillyTavern 长期记忆，支持自定义角色设定、关键事件、物品等，帮助AI更连贯地推演对话。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</guid><pubDate>Thu, 08 Jan 2026 16:58:12 +0000</pubDate></item><item><title>通过 Cloudflare 为纯IPv6 VPS 1Panel搭建网站</title><link>http://blog.20210701.xyz/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</link><description>尽量使用Ubuntu-22.04及以上
 或者Debian11及以上，以防在纯IPV6访问面板出现问题。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</guid><pubDate>Thu, 08 Jan 2026 15:45:02 +0000</pubDate></item><item><title>VPS快速部署酒馆（SillyTavern）教程</title><link>http://blog.20210701.xyz/post/VPS-kuai-su-bu-shu-jiu-guan-%EF%BC%88SillyTavern%EF%BC%89-jiao-cheng.html</link><description>1.新建目录
 
 ```
