@@ -1,4 +1,4 @@
-优先使用宝塔面板
+面板推荐使用宝塔面板
 
 1.新建目录
 
@@ -11,6 +11,8 @@ cd sillytavern
 ```
 
 2.在文件夹内新建一个docker-compose.yml文件，里面的内容为：
+`默认账户admin密码admin`
+`请注意自己修改！`
 推荐海外节点
 ```
 version: "3.9"
@@ -24,7 +26,7 @@ services:
       - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
       - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
       - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
-      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=qwaszx123 # 你的密码
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
       - TZ=Asia/Shanghai
     ports:
       - "8000:8000"                         # 本地访问端口
@@ -48,7 +50,7 @@ services:
       - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
       - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
       - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
-      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=qwaszx123 # 你的密码
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
       - TZ=Asia/Shanghai
     ports:
       - "8000:8000"                         # 本地访问端口

@@ -10,7 +10,7 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="优先使用宝塔面板
+<meta name="description" content="面板推荐使用宝塔面板
 
 1.新建目录
 
@@ -23,6 +23,8 @@ cd sillytavern
 ```
 
 2.在文件夹内新建一个docker-compose.yml文件，里面的内容为：
+`默认账户admin密码admin`
+`请注意自己修改！`
 推荐海外节点
 ```
 version: '3.9'
@@ -36,7 +38,7 @@ services:
       - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
       - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
       - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
-      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=qwaszx123 # 你的密码
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
       - TZ=Asia/Shanghai
     ports:
       - '8000:8000'                         # 本地访问端口
@@ -60,7 +62,7 @@ services:
       - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
       - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
       - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
-      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=qwaszx123 # 你的密码
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
       - TZ=Asia/Shanghai
     ports:
       - '8000:8000'                         # 本地访问端口
@@ -85,7 +87,7 @@ docker compose up -d
 
 `互联网创作，仅供个人使用，如有侵权，请联系删除`。">
 <meta property="og:title" content="VPS快速部署酒馆（SillyTavern）教程">
-<meta property="og:description" content="优先使用宝塔面板
+<meta property="og:description" content="面板推荐使用宝塔面板
 
 1.新建目录
 
@@ -98,6 +100,8 @@ cd sillytavern
 ```
 
 2.在文件夹内新建一个docker-compose.yml文件，里面的内容为：
+`默认账户admin密码admin`
+`请注意自己修改！`
 推荐海外节点
 ```
 version: '3.9'
@@ -111,7 +115,7 @@ services:
       - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
       - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
       - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
-      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=qwaszx123 # 你的密码
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
       - TZ=Asia/Shanghai
     ports:
       - '8000:8000'                         # 本地访问端口
@@ -135,7 +139,7 @@ services:
       - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
       - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
       - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
-      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=qwaszx123 # 你的密码
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
       - TZ=Asia/Shanghai
     ports:
       - '8000:8000'                         # 本地访问端口
@@ -229,13 +233,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>优先使用宝塔面板</p>
+<div class="markdown-body" id="postBody"><p>面板推荐使用宝塔面板</p>
 <p>1.新建目录</p>
 <pre class="notranslate"><code class="notranslate">mkdir sillytavern
 </code></pre>
 <pre class="notranslate"><code class="notranslate">cd sillytavern
 </code></pre>
 <p>2.在文件夹内新建一个docker-compose.yml文件，里面的内容为：<br>
+<code class="notranslate">默认账户admin密码admin</code><br>
+<code class="notranslate">请注意自己修改！</code><br>
 推荐海外节点</p>
 <pre class="notranslate"><code class="notranslate">version: "3.9"
 
@@ -248,7 +254,7 @@ services:
       - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
       - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
       - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
-      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=qwaszx123 # 你的密码
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
       - TZ=Asia/Shanghai
     ports:
       - "8000:8000"                         # 本地访问端口
@@ -271,7 +277,7 @@ services:
       - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
       - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
       - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
-      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=qwaszx123 # 你的密码
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
       - TZ=Asia/Shanghai
     ports:
       - "8000:8000"                         # 本地访问端口
