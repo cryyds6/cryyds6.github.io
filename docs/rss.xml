@@ -1,5 +1,128 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Wed, 14 Jan 2026 01:18:40 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>Gmeek进阶功能</title><link>http://blog.20210701.xyz/post/Gmeek-jin-jie-gong-neng.html</link><description>为了使得Gmeek的功能更加的丰富，我添加了插件的功能，目前已经有几个插件可以使用。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/Gmeek-jin-jie-gong-neng.html</guid><pubDate>Sat, 10 Jan 2026 07:56:11 +0000</pubDate></item><item><title>酒馆实用插件推荐</title><link>http://blog.20210701.xyz/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</link><description># SillyTaverm实用插件&amp;资源推荐
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Sun, 18 Jan 2026 15:40:56 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>一个粉不拉几的宝塔默认站点页面</title><link>http://blog.20210701.xyz/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-zhan-dian-ye-mian.html</link><description>带自适应
+![1768750745561_edit_723285037835753.jpg](https://github.com/user-attachments/assets/958a6118-0a9e-4a8b-8d4b-8c7ee41b3949)
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;站点搭建成功 ✧(≖ ◡ ≖✿)&lt;/title&gt;
+    &lt;style&gt;
+        * {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;}
+        body {min-height: 100vh;display: flex;align-items: center;justify-content: center;background: #fff5f8;padding: 20px;position: relative;overflow: hidden;}
+        /* 可爱漂浮装饰 */
+        .decor {position: absolute;pointer-events: none;z-index: 0;}
+        .decor1 {top: 20%;left: 10%;font-size: 24px;color: #ffd6e0;animation: float 6s infinite ease-in-out;}
+        .decor2 {bottom: 15%;right: 15%;font-size: 18px;color: #ffb3c6;animation: float 8s infinite ease-in-out 2s;}
+        .decor3 {top: 60%;left: 20%;font-size: 20px;color: #ff99cc;animation: float 7s infinite ease-in-out 1s;}
+        @keyframes float {
+            0% {transform: translateY(0) rotate(0deg);}
+            50% {transform: translateY(-15px) rotate(5deg);}
+            100% {transform: translateY(0) rotate(0deg);}
+        }
+        /* 宝塔原生风格容器 */
+        .box {
+            background: #fff;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-shadow: 0 3px 15px rgba(255,153,204,0.2);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            border: 2px solid #ffd6e0;
+        }
+        /* 可爱成功图标（替换原svg） */
+        .success-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+        .success-icon::before {
+            content: '✧';
+            font-size: 64px;
+            color: #ff6699;
+            animation: bounce 1.5s infinite alternate;
+        }
+        @keyframes bounce {
+            from {transform: scale(1);}
+            to {transform: scale(1.1);}
+        }
+        h1 {
+            font-size: 22px; /* 手机端缩小字体 */
+            color: #ff6699;
+            margin: 0 0 16px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(255,102,153,0.15);
+            letter-spacing: 0.5px; /* 微调字间距，避免换行 */
+        }
+        /* 响应式标题优化：小屏幕进一步缩小颜文字占比 */
+        @media (max-width: 375px) {
+            h1 {
+                font-size: 20px;
+                padding: 0 10px; /* 增加左右内边距，给文字更多空间 */
+            }
+            h1 span {
+                font-size: 18px; /* 颜文字单独缩小 */
+            }
+        }
+        p {
+            color: #999;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 28px;
+        }
+        /* 按钮样式（粉嫩主题） */
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ff99cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(255,153,204,0.2);
+        }
+        a:hover {
+            background: #ff6699;
+            box-shadow: 0 4px 12px rgba(255,102,153,0.3);
+            transform: translateY(-2px);
+        }
+        /* 底部版权 */
+        .footer {
+            font-size: 12px;
+            color: #ffb3c6;
+            margin-top: 30px;
+            letter-spacing: 0.5px;
+        }
+        .footer::after {
+            content: ' ✧ෆ◞◟˃̶̤⌄˂̶̤⋆biubiu';
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- 可爱漂浮装饰 --&gt;
+    &lt;div class='decor decor1'&gt;✿&lt;/div&gt;
+    &lt;div class='decor decor2'&gt;★&lt;/div&gt;
+    &lt;div class='decor decor3'&gt;♡&lt;/div&gt;
+
+    &lt;div class='box'&gt;
+        &lt;div class='success-icon'&gt;&lt;/div&gt;
+        &lt;!-- 标题拆分颜文字，方便响应式调整 --&gt;
+        &lt;h1&gt;站点搭建成功啦 &lt;span&gt;✧(≖ ◡ ≖✿)&lt;/span&gt;&lt;/h1&gt;
+        &lt;p&gt;粉嫩小站已就绪，快去探索更多可爱玩法吧～&lt;/p&gt;
+        &lt;a href='https://www.bt.cn/' target='_blank'&gt;官方文档&lt;/a&gt;
+        &lt;div class='footer'&gt;© 宝塔面板 服务器管理工具&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+```。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-zhan-dian-ye-mian.html</guid><pubDate>Sun, 18 Jan 2026 15:40:30 +0000</pubDate></item><item><title>Gmeek进阶功能</title><link>http://blog.20210701.xyz/post/Gmeek-jin-jie-gong-neng.html</link><description>为了使得Gmeek的功能更加的丰富，我添加了插件的功能，目前已经有几个插件可以使用。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/Gmeek-jin-jie-gong-neng.html</guid><pubDate>Sat, 10 Jan 2026 07:56:11 +0000</pubDate></item><item><title>酒馆实用插件推荐</title><link>http://blog.20210701.xyz/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</link><description># SillyTaverm实用插件&amp;资源推荐
 
 ## 1. 酒馆助手 (Tavern-Helper)
 **作者**：@𝚔𝚊𝚔𝚊𝚊🫠、@青空莉正辟谣
