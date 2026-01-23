@@ -10,7 +10,11 @@ mkdir sillytavern
 cd sillytavern
 ```
 
-2.在文件夹内新建一个docker-compose.yml文件，里面的内容为：
+2.在文件夹内新建一个文件
+```
+docker-compose.yml
+```
+里面的内容为：
 `默认账户admin密码admin`
 `请注意自己修改！`
 推荐海外节点
