@@ -1,6 +1,6 @@
 面板推荐使用宝塔面板
 
-1.新建目录
+1.新建目录sillytavern
 
 ```
 mkdir sillytavern
