@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Tue, 27 Jan 2026 12:46:00 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>&gt; 一个可能有效的防攻击代码…</title><link>http://blog.20210701.xyz/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</link><description>&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>http://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>http://blog.20210701.xyz</link></image><lastBuildDate>Tue, 27 Jan 2026 12:47:38 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>&gt; 一个可能有效的防攻击代码…</title><link>http://blog.20210701.xyz/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</link><description>&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
 &gt;来源网络地址:https://loli520.com/286.html
 我的演示页面: [gj.qqgxs.qzz.io](https://gj.qqgxs.qzz.io)
 ```
@@ -167,7 +167,16 @@
   &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</guid><pubDate>Tue, 27 Jan 2026 12:07:15 +0000</pubDate></item><item><title>Hello&amp;Qgxs</title><link>http://blog.20210701.xyz/post/Hello%26Qgxs.html</link><description>```
+```。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</guid><pubDate>Tue, 27 Jan 2026 12:07:15 +0000</pubDate></item><item><title>Hello&amp;Qgxs引导页</title><link>http://blog.20210701.xyz/post/Hello%26Qgxs-yin-dao-ye.html</link><description>Hello&amp;Qgxs引导页
+html单页
+AI写的
+自适应页面
+可以托管Cloudflare 
+
+当做小页面放在博客里面，挺不错的
+我的演示页面[www.20210701.xyz](https://www.20210701.xyz/)
+
+```
 &lt;!DOCTYPE html&gt;
 &lt;html lang='zh-CN'&gt;
 &lt;head&gt;
@@ -209,7 +218,7 @@
         &lt;!-- 紧凑版欢迎文本 --&gt;
         &lt;div class='welcome-text'&gt;
             &lt;p&gt;
-                &lt;span style='color: rgba(14, 165, 233, 0.9);'&gt;欢迎到来。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/Hello%26Qgxs.html</guid><pubDate>Tue, 27 Jan 2026 11:49:53 +0000</pubDate></item><item><title>中国共产党成立100周年纪念单页</title><link>http://blog.20210701.xyz/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</link><description>html单页
+                &lt;span style='color: rgba(14, 165, 233, 0.9);'&gt;欢迎到来。</description><guid isPermaLink="true">http://blog.20210701.xyz/post/Hello%26Qgxs-yin-dao-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:49:53 +0000</pubDate></item><item><title>中国共产党成立100周年纪念单页</title><link>http://blog.20210701.xyz/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</link><description>html单页
 AI写的
 自适应页面
 可以托管Cloudflare 
