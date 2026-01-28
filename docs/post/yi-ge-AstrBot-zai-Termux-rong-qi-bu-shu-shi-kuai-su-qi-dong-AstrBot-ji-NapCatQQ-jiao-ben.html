@@ -10,14 +10,14 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="第一步：创建管理脚本
+<meta name="description" content="## 第一步：创建管理脚本
 
 ```bash
 # 创建脚本文件
 nano ~/bot-manager.sh
 ```
 
-第二步：复制粘贴内容
+## 第二步：复制粘贴内容
 
 将以下内容完整复制粘贴到 nano 编辑器中：
 
@@ -65,7 +65,7 @@ case '$1' in
 esac
 ```
 
-第三步：保存文件
+## 第三步：保存文件
 
 按顺序按键：
 
@@ -73,13 +73,13 @@ esac
 Ctrl + X → Y → Enter
 ```
 
-第四步：给脚本添加执行权限
+## 第四步：给脚本添加执行权限
 
 ```bash
 chmod +x ~/bot-manager.sh
 ```
 
-第五步：使用脚本管理机器人
+## 第五步：使用脚本管理机器人
 
 启动所有服务：
 
@@ -133,7 +133,7 @@ chmod +x ~/bot-manager.sh
 ./bot-manager.sh help
 ```
 
-使用示例流程：
+## 使用示例流程：
 
 1. 第一次启动：
    ```bash
@@ -152,7 +152,7 @@ chmod +x ~/bot-manager.sh
    ```bash
    ./bot-manager.sh stop
    ```
-
+## 结束提示
 这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！
 
 在linux一件脚本下的启动命令
@@ -166,14 +166,14 @@ napcat start 你的QQ号
 napcat startup 你的QQ号
 ```。">
 <meta property="og:title" content="一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本">
-<meta property="og:description" content="第一步：创建管理脚本
+<meta property="og:description" content="## 第一步：创建管理脚本
 
 ```bash
 # 创建脚本文件
 nano ~/bot-manager.sh
 ```
 
-第二步：复制粘贴内容
+## 第二步：复制粘贴内容
 
 将以下内容完整复制粘贴到 nano 编辑器中：
 
@@ -221,7 +221,7 @@ case '$1' in
 esac
 ```
 
-第三步：保存文件
+## 第三步：保存文件
 
 按顺序按键：
 
@@ -229,13 +229,13 @@ esac
 Ctrl + X → Y → Enter
 ```
 
-第四步：给脚本添加执行权限
+## 第四步：给脚本添加执行权限
 
 ```bash
 chmod +x ~/bot-manager.sh
 ```
 
-第五步：使用脚本管理机器人
+## 第五步：使用脚本管理机器人
 
 启动所有服务：
 
@@ -289,7 +289,7 @@ chmod +x ~/bot-manager.sh
 ./bot-manager.sh help
 ```
 
-使用示例流程：
+## 使用示例流程：
 
 1. 第一次启动：
    ```bash
@@ -308,7 +308,7 @@ chmod +x ~/bot-manager.sh
    ```bash
    ./bot-manager.sh stop
    ```
-
+## 结束提示
 这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！
 
 在linux一件脚本下的启动命令
@@ -391,10 +391,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>第一步：创建管理脚本</p>
+<div class="markdown-body" id="postBody"><h2>第一步：创建管理脚本</h2>
 <div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 创建脚本文件</span>
 nano <span class="pl-k">~</span>/bot-manager.sh</pre></div>
-<p>第二步：复制粘贴内容</p>
+<h2>第二步：复制粘贴内容</h2>
 <p>将以下内容完整复制粘贴到 nano 编辑器中：</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#!</span>/bin/bash</span>
 
@@ -437,13 +437,13 @@ nano <span class="pl-k">~</span>/bot-manager.sh</pre></div>
         <span class="pl-c1">exit</span> 1
         ;;
 <span class="pl-k">esac</span></pre></div>
-<p>第三步：保存文件</p>
+<h2>第三步：保存文件</h2>
 <p>按顺序按键：</p>
 <pre class="notranslate"><code class="notranslate">Ctrl + X → Y → Enter
 </code></pre>
-<p>第四步：给脚本添加执行权限</p>
+<h2>第四步：给脚本添加执行权限</h2>
 <div class="highlight highlight-source-shell"><pre class="notranslate">chmod +x <span class="pl-k">~</span>/bot-manager.sh</pre></div>
-<p>第五步：使用脚本管理机器人</p>
+<h2>第五步：使用脚本管理机器人</h2>
 <p>启动所有服务：</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh start</pre></div>
 <p>停止所有服务：</p>
@@ -462,7 +462,7 @@ nano <span class="pl-k">~</span>/bot-manager.sh</pre></div>
 <div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh</pre></div>
 <p>或者</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh <span class="pl-c1">help</span></pre></div>
-<p>使用示例流程：</p>
+<h2>使用示例流程：</h2>
 <ol>
 <li>第一次启动：
 <div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh start</pre></div>
@@ -478,6 +478,7 @@ nano <span class="pl-k">~</span>/bot-manager.sh</pre></div>
 <div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh stop</pre></div>
 </li>
 </ol>
+<h2>结束提示</h2>
 <p>这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！</p>
 <p>在linux一件脚本下的启动命令<br>
 1. 基础持续启动（指定QQ）：输入命令后，程序后台持续运行，断开终端也不受影响<br>

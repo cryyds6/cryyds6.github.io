@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Wed, 28 Jan 2026 15:36:50 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://blog.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Wed, 28 Jan 2026 17:21:09 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://blog.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
 &gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
 **来源**：[https://tyooe.com/linux-benchmark-scripts](https://tyooe.com/linux-benchmark-scripts)
 
@@ -1344,14 +1344,14 @@ docker compose up -d
 - **占有的推定**
 ### **3. 占有的取得与消灭**
 - **占有的取得**
-- **占有的消灭**。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</guid><pubDate>Thu, 27 Nov 2025 01:57:54 +0000</pubDate></item><item><title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title><link>https://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</link><description>第一步：创建管理脚本
+- **占有的消灭**。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</guid><pubDate>Thu, 27 Nov 2025 01:57:54 +0000</pubDate></item><item><title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title><link>https://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</link><description>## 第一步：创建管理脚本
 
 ```bash
 # 创建脚本文件
 nano ~/bot-manager.sh
 ```
 
-第二步：复制粘贴内容
+## 第二步：复制粘贴内容
 
 将以下内容完整复制粘贴到 nano 编辑器中：
 
@@ -1399,7 +1399,7 @@ case '$1' in
 esac
 ```
 
-第三步：保存文件
+## 第三步：保存文件
 
 按顺序按键：
 
@@ -1407,13 +1407,13 @@ esac
 Ctrl + X → Y → Enter
 ```
 
-第四步：给脚本添加执行权限
+## 第四步：给脚本添加执行权限
 
 ```bash
 chmod +x ~/bot-manager.sh
 ```
 
-第五步：使用脚本管理机器人
+## 第五步：使用脚本管理机器人
 
 启动所有服务：
 
@@ -1467,7 +1467,7 @@ chmod +x ~/bot-manager.sh
 ./bot-manager.sh help
 ```
 
-使用示例流程：
+## 使用示例流程：
 
 1. 第一次启动：
    ```bash
@@ -1486,7 +1486,7 @@ chmod +x ~/bot-manager.sh
    ```bash
    ./bot-manager.sh stop
    ```
-
+## 结束提示
 这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！
 
 在linux一件脚本下的启动命令
