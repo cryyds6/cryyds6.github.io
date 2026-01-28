@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Wed, 28 Jan 2026 17:22:33 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://blog.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Wed, 28 Jan 2026 17:38:24 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://blog.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
 &gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
 **来源**：[https://tyooe.com/linux-benchmark-scripts](https://tyooe.com/linux-benchmark-scripts)
 
@@ -495,17 +495,8 @@ AI写的
       &lt;div class='card' role='region' aria-labelledby='aboutTitle'&gt;
         &lt;h2 id='aboutTitle'&gt;百年光辉 · 百年征程&lt;/h2&gt;
         &lt;p&gt;
-          百年，是历史在时光上刻下的深深纹理；百年，也是每一次初心的温热延续。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:47:47 +0000</pubDate></item><item><title>一个粉不拉几的宝塔默认页面系列</title><link>https://blog.20210701.xyz/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-ye-mian-xi-lie.html</link><description>
+          百年，是历史在时光上刻下的深深纹理；百年，也是每一次初心的温热延续。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:47:47 +0000</pubDate></item><item><title>一个粉不拉几的宝塔默认页面系列</title><link>https://blog.20210701.xyz/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-ye-mian-xi-lie.html</link><description>### 1.站点搭建成功提示
 ![1768750745561_edit_723285037835753.jpg](https://github.com/user-attachments/assets/958a6118-0a9e-4a8b-8d4b-8c7ee41b3949)
-![1768750993209.webp](https://github.com/user-attachments/assets/ec81d7c9-07ac-4268-9d2c-63cb8d0baf43)
-![1768883892665.webp](https://github.com/user-attachments/assets/10033a7b-99be-48ef-87e4-64a4cb491fd3)
-![1768883894216.webp](https://github.com/user-attachments/assets/c0f612f0-c585-415c-8324-01a27ae0ecac)
-![1769511780324.webp](https://github.com/user-attachments/assets/858cdb3b-454c-4851-8315-0782748bb8a9)
-
-
-
-
-
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -628,6 +619,8 @@ AI写的
 &lt;/html&gt;
 
 ```
+### 2.404提示页面
+![1768750993209.webp](https://github.com/user-attachments/assets/ec81d7c9-07ac-4268-9d2c-63cb8d0baf43)
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -753,6 +746,10 @@ AI写的
 &lt;/html&gt;
 
 ```
+
+### 3.没有页面提示
+![1768883892665.webp](https://github.com/user-attachments/assets/10033a7b-99be-48ef-87e4-64a4cb491fd3)
+
 ```
 &lt;!DOCTYPE html&gt;
 &lt;html lang='zh-CN'&gt;
@@ -902,6 +899,9 @@ AI写的
 &lt;/html&gt;
 
 ```
+### 4.服务已停止
+![1768883894216.webp](https://github.com/user-attachments/assets/c0f612f0-c585-415c-8324-01a27ae0ecac)
+
 ```
 &lt;!DOCTYPE html&gt;
 &lt;html lang='zh-CN'&gt;
@@ -1053,6 +1053,9 @@ AI写的
 &lt;/html&gt;
 
 ```
+
+### 5.域名停靠待启用
+![1769511780324.webp](https://github.com/user-attachments/assets/858cdb3b-454c-4851-8315-0782748bb8a9)
 ```
 &lt;!DOCTYPE html&gt;
 &lt;html lang='zh-CN'&gt;
