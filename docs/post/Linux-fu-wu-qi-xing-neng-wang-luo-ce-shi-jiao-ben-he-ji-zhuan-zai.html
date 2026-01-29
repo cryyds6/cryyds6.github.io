@@ -109,7 +109,26 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>使用（任意一条命令，复制即可执行）：</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">curl -L https://github.com/spiritLHLS/ecs/raw/main/ecs.sh -o ecs.sh <span class="pl-k">&amp;&amp;</span> chmod +x ecs.sh <span class="pl-k">&amp;&amp;</span> bash ecs.sh</pre></div>
 <div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>wget -qO- bash.spiritlhl.net/ecs<span class="pl-pds">)</span></span></pre></div>
-<p>地址：<a href="https://github.com/spiritLHLS/ecs">https://github.com/spiritLHLS/ecs</a></p>
+<h4>go版本</h4>
+<p>一键命令将默认不安装依赖，默认不更新包管理器，默认非互动模式</p>
+<ul>
+<li>国际用户无加速：</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">export noninteractive=true &amp;&amp; curl -L https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh &amp;&amp; chmod +x goecs.sh &amp;&amp; ./goecs.sh install &amp;&amp; goecs
+</code></pre>
+<ul>
+<li>国际/国内使用 CDN 加速：</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">export noninteractive=true &amp;&amp; curl -L https://cdn.spiritlhl.net/https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh &amp;&amp; chmod +x goecs.sh &amp;&amp; ./goecs.sh install &amp;&amp; goecs
+</code></pre>
+<ul>
+<li>国内用户使用 CNB 加速：</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">export noninteractive=true &amp;&amp; curl -L https://cnb.cool/oneclickvirt/ecs/-/git/raw/main/goecs.sh -o goecs.sh &amp;&amp; chmod +x goecs.sh &amp;&amp; ./goecs.sh install &amp;&amp; goecs
+</code></pre>
+<p>地址：<a href="https://github.com/spiritLHLS/ecs">https://github.com/spiritLHLS/ecs</a><br>
+go版本<br>
+<a href="https://github.com/oneclickvirt/ecs">https://github.com/oneclickvirt/ecs</a></p>
 <h3>2.3 LemonBench</h3>
 <p>快速评估服务器综合性能，提供硬件配置信息的专用工具。</p>
 <p>使用（任意一条命令，复制即可执行）：</p>

@@ -27,7 +27,23 @@ curl -L https://github.com/spiritLHLS/ecs/raw/main/ecs.sh -o ecs.sh && chmod +x 
 ```bash
 bash <(wget -qO- bash.spiritlhl.net/ecs)
 ```
+#### go版本
+一键命令将默认不安装依赖，默认不更新包管理器，默认非互动模式
+- 国际用户无加速：
+```
+export noninteractive=true && curl -L https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh && chmod +x goecs.sh && ./goecs.sh install && goecs
+```
+- 国际/国内使用 CDN 加速：
+```
+export noninteractive=true && curl -L https://cdn.spiritlhl.net/https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh && chmod +x goecs.sh && ./goecs.sh install && goecs
+```
+- 国内用户使用 CNB 加速：
+```
+export noninteractive=true && curl -L https://cnb.cool/oneclickvirt/ecs/-/git/raw/main/goecs.sh -o goecs.sh && chmod +x goecs.sh && ./goecs.sh install && goecs
+```
 地址：https://github.com/spiritLHLS/ecs
+go版本
+https://github.com/oneclickvirt/ecs
 
 ### 2.3 LemonBench
 快速评估服务器综合性能，提供硬件配置信息的专用工具。
