@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Thu, 29 Jan 2026 06:33:56 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>18秒复刻同款Gmeek静态博客</title><link>https://blog.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</link><description># 本博客同款Gmeek静态博客
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Thu, 29 Jan 2026 06:37:25 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>18秒复刻同款Gmeek静态博客</title><link>https://blog.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</link><description># 本博客同款Gmeek静态博客
 我的博客:[blog.20210701.xyz](https://blog.20210701.xyz)
 
 前期准备
-- [x] 一个Github账号
-- [x] 可以正常访问到Github网页版
-- _以下为非必须_
-- [ ] Github手机版（如果需要方便发文，手机版可以直接用）
-- [ ] Markor手机软件（类似的有很多能编辑Markdown的。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</guid><pubDate>Thu, 29 Jan 2026 06:33:27 +0000</pubDate></item><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://blog.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
+- ✅ 一个Github账号
+- ✅可以正常访问到Github网页版
+
+- **_以下为非必须_**
+- Github手机版（如果需要方便发文，手机版可以直接用）
+- Markor手机软件（类似的有很多能编辑Markdown的。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</guid><pubDate>Thu, 29 Jan 2026 06:33:27 +0000</pubDate></item><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://blog.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
 &gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
 **来源**：[https://tyooe.com/linux-benchmark-scripts](https://tyooe.com/linux-benchmark-scripts)
 
