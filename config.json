@@ -18,6 +18,5 @@
     "primerCSS":"<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><link rel=\"preconnect\" href=\"https://code.buxiantang.top\"><link rel=\"preconnect\" href=\"https://blog.meekdai.com\"><link rel=\"stylesheet\" href=\"https://code.buxiantang.top/assets/GmeekBaseTheme.css\"><script src=\"https://code.buxiantang.top/assets/GmeekCustomizeCss.js\"></script>",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
-    "customHtml": "<div style=\"width:100%;padding:10px 0;margin:0 auto;text-align:center;\"><center>本站由<a href=\"https://www.kingcdn.cc/\" target=\"_blank\" ><strong>君主盾CDN</strong></a>提供内容加速及安全防护</center></div>",
     "GMEEK_VERSION":"main"
 }
