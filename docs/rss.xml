@@ -1,5 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Thu, 29 Jan 2026 06:37:25 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>18秒复刻同款Gmeek静态博客</title><link>https://blog.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</link><description># 本博客同款Gmeek静态博客
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/130044290.png</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Tue, 24 Feb 2026 17:37:25 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>Shadowsocks 四版本一键安装脚本使用教程</title><link>https://blog.20210701.xyz/post/Shadowsocks%20-si-ban-ben-yi-jian-an-zhuang-jiao-ben-shi-yong-jiao-cheng.html</link><description># Shadowsocks 四版本一键安装脚本使用教程
+
+## 本脚本适用环境
+系统支持：CentOS 6+，Debian 7+，Ubuntu 12+
+内存要求：≥128M
+日期：2020 年 06 月 01 日
+
+## 默认配置
+服务器端口：自己设定（如不设定，默认从 9000-19999 之间随机生成）
+密码：自己设定（如不设定，默认为 teddysun.com）
+加密方式：自己设定（如不设定，Python 和 libev 版默认为 aes-256-gcm，R 和 Go 版默认为 aes-256-cfb）
+协议（protocol）：自己设定（如不设定，默认为 origin）（仅限 ShadowsocksR 版）
+混淆（obfs）：自己设定（如不设定，默认为 plain）（仅限 ShadowsocksR 版）
+
+备注：脚本默认创建单用户配置文件，如需配置多用户，请手动修改相应的配置文件后重启即可。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/Shadowsocks%20-si-ban-ben-yi-jian-an-zhuang-jiao-ben-shi-yong-jiao-cheng.html</guid><pubDate>Fri, 20 Feb 2026 17:19:25 +0000</pubDate></item><item><title>18秒复刻同款Gmeek静态博客</title><link>https://blog.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</link><description># 本博客同款Gmeek静态博客
 我的博客:[blog.20210701.xyz](https://blog.20210701.xyz)
 
 前期准备
