@@ -329,7 +329,7 @@ napcat startup 你的QQ号
 <meta property="og:url" content="https://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html">
 <meta property="og:image" content="https://blog.20210701.xyz/logo.jpeg">
 <title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title>
-
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 
 </head>
@@ -396,33 +396,32 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><h2>第一步：创建管理脚本</h2>
-<pre lang="bash" class="notranslate"><code class="notranslate"># 创建脚本文件
-nano ~/bot-manager.sh
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 创建脚本文件</span>
+nano <span class="pl-k">~</span>/bot-manager.sh</pre></div>
 <h2>第二步：复制粘贴内容</h2>
 <p>将以下内容完整复制粘贴到 nano 编辑器中：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">#!/bin/bash
+<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#!</span>/bin/bash</span>
 
-case "$1" in
+<span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$1</span><span class="pl-pds">"</span></span> <span class="pl-k">in</span>
     start)
-        echo "启动机器人服务..."
-        screen -dmS napcat bash -c 'proot-distro login napcat -- bash -c "xvfb-run -a qq --no-sandbox"'
-        screen -dmS astrobot bash -c 'proot-distro login ubuntu -- bash -c "cd AstrBot &amp;&amp; uv run main.py"'
-        echo "启动完成！"
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>启动机器人服务...<span class="pl-pds">"</span></span>
+        screen -dmS napcat bash -c <span class="pl-s"><span class="pl-pds">'</span>proot-distro login napcat -- bash -c "xvfb-run -a qq --no-sandbox"<span class="pl-pds">'</span></span>
+        screen -dmS astrobot bash -c <span class="pl-s"><span class="pl-pds">'</span>proot-distro login ubuntu -- bash -c "cd AstrBot &amp;&amp; uv run main.py"<span class="pl-pds">'</span></span>
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>启动完成！<span class="pl-pds">"</span></span>
         ;;
     stop)
-        echo "停止机器人服务..."
-        screen -S napcat -X quit 2&gt;/dev/null
-        screen -S astrobot -X quit 2&gt;/dev/null
-        echo "已停止"
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>停止机器人服务...<span class="pl-pds">"</span></span>
+        screen -S napcat -X quit <span class="pl-k">2&gt;</span>/dev/null
+        screen -S astrobot -X quit <span class="pl-k">2&gt;</span>/dev/null
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>已停止<span class="pl-pds">"</span></span>
         ;;
     restart)
-        $0 stop
+        <span class="pl-smi">$0</span> stop
         sleep 3
-        $0 start
+        <span class="pl-smi">$0</span> start
         ;;
     status)
-        echo "当前运行状态："
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>当前运行状态：<span class="pl-pds">"</span></span>
         screen -ls
         ;;
     napcat)
@@ -431,70 +430,56 @@ case "$1" in
     astrobot)
         screen -r astrobot
         ;;
-    *)
-        echo "使用方法: $0 {start|stop|restart|status|napcat|astrobot}"
-        echo "  start    - 启动所有服务"
-        echo "  stop     - 停止所有服务"
-        echo "  restart  - 重启所有服务"
-        echo "  status   - 查看状态"
-        echo "  napcat   - 连接到 NapCat"
-        echo "  astrobot - 连接到 AstrBot"
-        exit 1
+    <span class="pl-k">*</span>)
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>使用方法: <span class="pl-smi">$0</span> {start|stop|restart|status|napcat|astrobot}<span class="pl-pds">"</span></span>
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>  start    - 启动所有服务<span class="pl-pds">"</span></span>
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>  stop     - 停止所有服务<span class="pl-pds">"</span></span>
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>  restart  - 重启所有服务<span class="pl-pds">"</span></span>
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>  status   - 查看状态<span class="pl-pds">"</span></span>
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>  napcat   - 连接到 NapCat<span class="pl-pds">"</span></span>
+        <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>  astrobot - 连接到 AstrBot<span class="pl-pds">"</span></span>
+        <span class="pl-c1">exit</span> 1
         ;;
-esac
-</code></pre>
+<span class="pl-k">esac</span></pre></div>
 <h2>第三步：保存文件</h2>
 <p>按顺序按键：</p>
 <pre class="notranslate"><code class="notranslate">Ctrl + X → Y → Enter
 </code></pre>
 <h2>第四步：给脚本添加执行权限</h2>
-<pre lang="bash" class="notranslate"><code class="notranslate">chmod +x ~/bot-manager.sh
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">chmod +x <span class="pl-k">~</span>/bot-manager.sh</pre></div>
 <h2>第五步：使用脚本管理机器人</h2>
 <p>启动所有服务：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh start
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh start</pre></div>
 <p>停止所有服务：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh stop
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh stop</pre></div>
 <p>查看运行状态：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh status
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh status</pre></div>
 <p>重启所有服务：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh restart
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh restart</pre></div>
 <p>连接到 NapCat 控制台：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh napcat
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh napcat</pre></div>
 <p>（要退出控制台，按 Ctrl + A 然后按 D）</p>
 <p>连接到 AstrBot 控制台：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh astrobot
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh astrobot</pre></div>
 <p>（要退出控制台，按 Ctrl + A 然后按 D）</p>
 <p>查看帮助信息：</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh</pre></div>
 <p>或者</p>
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh help
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh <span class="pl-c1">help</span></pre></div>
 <h2>使用示例流程：</h2>
 <ol>
 <li>第一次启动：
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh start
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh start</pre></div>
 </li>
 <li>检查是否正常运行：
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh status
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh status</pre></div>
 </li>
 <li>查看 NapCat 日志：
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh napcat
-# 看完后按 Ctrl+A, 然后按 D 退出
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh napcat
+<span class="pl-c"><span class="pl-c">#</span> 看完后按 Ctrl+A, 然后按 D 退出</span></pre></div>
 </li>
 <li>停止服务：
-<pre lang="bash" class="notranslate"><code class="notranslate">./bot-manager.sh stop
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">./bot-manager.sh stop</pre></div>
 </li>
 </ol>
 <h2>结束提示</h2>
