@@ -1,2 +1,1563 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/logo.jpeg</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Mon, 27 Apr 2026 17:23:14 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://blog.20210701.xyz</link><description>放松心情，漫游四处，处处美景。</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.20210701.xyz/logo.jpeg</url><title>avatar</title><link>https://blog.20210701.xyz</link></image><lastBuildDate>Tue, 28 Apr 2026 17:47:49 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>Mizuki 博客搭建指南</title><link>https://blog.20210701.xyz/post/Mizuki%20-bo-ke-da-jian-zhi-nan.html</link><description># Mizuki 博客搭建指南
+
+## 一、前期准备
+
+**核心能力**：具备基础问题解决能力，遇到疑问优先思考、主动搜索，搜索无果可借助AI工具，避免盲目提问；能同时处理简单多任务。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/Mizuki%20-bo-ke-da-jian-zhi-nan.html</guid><pubDate>Tue, 24 Feb 2026 17:44:18 +0000</pubDate></item><item><title>Shadowsocks 四版本一键安装脚本使用教程</title><link>https://blog.20210701.xyz/post/Shadowsocks%20-si-ban-ben-yi-jian-an-zhuang-jiao-ben-shi-yong-jiao-cheng.html</link><description># Shadowsocks 四版本一键安装脚本使用教程
+
+## 本脚本适用环境
+系统支持：CentOS 6+，Debian 7+，Ubuntu 12+
+内存要求：≥128M
+日期：2020 年 06 月 01 日
+
+## 默认配置
+服务器端口：自己设定（如不设定，默认从 9000-19999 之间随机生成）
+密码：自己设定（如不设定，默认为 teddysun.com）
+加密方式：自己设定（如不设定，Python 和 libev 版默认为 aes-256-gcm，R 和 Go 版默认为 aes-256-cfb）
+协议（protocol）：自己设定（如不设定，默认为 origin）（仅限 ShadowsocksR 版）
+混淆（obfs）：自己设定（如不设定，默认为 plain）（仅限 ShadowsocksR 版）
+
+备注：脚本默认创建单用户配置文件，如需配置多用户，请手动修改相应的配置文件后重启即可。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/Shadowsocks%20-si-ban-ben-yi-jian-an-zhuang-jiao-ben-shi-yong-jiao-cheng.html</guid><pubDate>Fri, 20 Feb 2026 17:19:25 +0000</pubDate></item><item><title>18秒复刻同款Gmeek静态博客</title><link>https://blog.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</link><description># 本博客同款Gmeek静态博客
+我的博客:[blog.20210701.xyz](https://blog.20210701.xyz)
+
+前期准备
+- ✅ 一个Github账号
+- ✅可以正常访问到Github网页版
+
+- **_以下为非必须_**
+- Github手机版（如果需要方便发文，手机版可以直接用）
+- Markor手机软件（类似的有很多能编辑Markdown的。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</guid><pubDate>Thu, 29 Jan 2026 06:33:27 +0000</pubDate></item><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://blog.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
+&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
+**来源**：[https://tyooe.com/linux-benchmark-scripts](https://tyooe.com/linux-benchmark-scripts)
+
+**用途**：适用于新购 Linux 服务器后，快速评估硬件性能、网络连通性、流媒体解锁状态等，包含综合测试、专项性能测试、网络测试、解锁检测四大类脚本，可直接复制命令执行。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</guid><pubDate>Wed, 28 Jan 2026 15:36:13 +0000</pubDate></item><item><title>VPS融合怪服务器测评项目GO版本</title><link>https://blog.20210701.xyz/post/VPS-rong-he-guai-fu-wu-qi-ce-ping-xiang-mu-GO-ban-ben.html</link><description>&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
+融合怪测评项目 - GO版本
+开源项目地址:[https://github.com/oneclickvirt/ecs](https://github.com/oneclickvirt/ecs)
+
+---
+## **适配系统和架构**
+
+### **编译与测试支持情况**
+| 编译支持的架构             | 测试支持的架构 | 编译支持的系统             | 测试支持的系统 |
+|---------------------------|--------------|---------------------------|---------------|
+| amd64                     | amd64        | Linux                     | Linux         |
+| arm64                     | arm64        | Windows                   | Windows       |
+| arm                       |              | MacOS(Darwin)             | MacOS         |
+| 386                       |              | FreeBSD                   |               |
+| mips,mipsle               |              | Android                   |               |
+| mips64,mips64le           |              |                           |               | 
+| ppc64,ppc64le             |              |                           |               |
+| s390x                     | s390x        |                           |               |
+| riscv64                   |              |                           |               |
+
+&gt; 更多架构与系统请自行测试或编译，如有问题请开 issues。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/VPS-rong-he-guai-fu-wu-qi-ce-ping-xiang-mu-GO-ban-ben.html</guid><pubDate>Wed, 28 Jan 2026 14:32:22 +0000</pubDate></item><item><title>一个简洁的在线音乐页面</title><link>https://blog.20210701.xyz/post/yi-ge-jian-ji-de-zai-xian-yin-le-ye-mian.html</link><description>网易云网页接口
+可以修改歌单
+自适应页面
+可以托管Cloudflare 
+
+当做小页面放在博客里面，挺不错的
+我的演示页面:[music.20210701.xyz](https://music.20210701.xyz)
+下载地址:https://wwbtv.lanzout.com/imWHg3h57zeh
+&lt;img width='1643' height='894' alt='Image' src='https://github.com/user-attachments/assets/4b7bed03-ed00-4f47-a5c8-b82931e28655' /&gt;。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/yi-ge-jian-ji-de-zai-xian-yin-le-ye-mian.html</guid><pubDate>Tue, 27 Jan 2026 12:39:47 +0000</pubDate></item><item><title>&gt; 一个可能有效的防攻击代码…</title><link>https://blog.20210701.xyz/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</link><description>&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
+&gt;来源网络地址:https://loli520.com/286.html
+我的演示页面: [gj.qqgxs.qzz.io](https://gj.qqgxs.qzz.io)
+```
+&lt;!DOCTYPE html&gt;&lt;html lang='zh'&gt;
+&lt;head&gt;
+  &lt;meta charset='UTF-8'&gt;
+  &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+  &lt;title&gt;求求你手下留情QAQ&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      background: linear-gradient(180deg, #ffe4e9, #ffc0cb);
+      font-family: 'Comic Sans MS', '微软雅黑', cursive;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 480px;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .crying-girl {
+      max-width: 240px;
+      height: auto;
+      animation: shake 1s infinite alternate;
+      filter: drop-shadow(0px 5px 10px rgba(255, 77, 109, 0.3));
+      margin-bottom: 15px;
+    }
+    @keyframes shake {
+      0% { transform: translateX(-2px); }
+      100% { transform: translateX(2px); }
+    }
+    .text, .small-text, .contact {
+      background: rgba(255, 255, 255, 0.9);
+      margin: 10px auto;
+      padding: 10px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 90%;
+    }
+    .text {
+      font-size: 20px;
+      color: #ff5e78;
+      font-weight: bold;
+    }
+    .small-text {
+      font-size: 14px;
+      color: #666;
+    }
+    .contact {
+      font-size: 16px;
+      color: #ff4d6d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+    }
+    .qq-icon {
+      width: 22px;
+      height: 22px;
+    }
+    .contact a {
+      color: #ff4d6d;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    .love-btn {
+      background: linear-gradient(135deg, #ff5e78, #ff2e63);
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: 0.3s ease;
+    }
+    .love-btn:hover {
+      transform: scale(1.05);
+    }
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #ffe4e9;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(255, 94, 120, 0.2);
+      width: 90%;
+      max-width: 320px;
+    }
+    .popup-content p {
+      font-size: 16px;
+      color: #ff5e78;
+      font-weight: bold;
+    }
+    .popup-content button {
+      background: linear-gradient(135deg, #ff5e78, #ff2e63);
+      color: white;
+      font-size: 14px;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .popup-content button:hover {
+      transform: scale(1.05);
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class='container'&gt;
+    &lt;img src='https://loli520.com/wp-content/uploads/2025/03/20250305085825937-backgrounderaser_1741136243.png' class='crying-girl' alt='可怜的小女孩'&gt;
+    &lt;div class='text'&gt;呜呜... 你真的要攻击人家吗？(つ﹏⊂)&lt;/div&gt;
+    &lt;div class='small-text'&gt;
+      人家只是个小小服务器…你这么大力，人家真的要坏掉了QAQ！&lt;br&gt;要不…先停一下，求求你啦~
+    &lt;/div&gt;
+    &lt;div class='contact'&gt;
+      &lt;img src='https://img.icons8.com/color/48/000000/qq.png' class='qq-icon' alt='QQ'&gt;
+      &lt;a href='https://qm.qq.com/q/9tcfSwgVNe'&gt;联系我: QQ 123456&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;button class='love-btn' onclick='showThanks()'&gt;💖 点一下手下留情 💖&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div id='cute-popup' class='popup'&gt;
+    &lt;div class='popup-content'&gt;
+      &lt;p&gt;谢谢你愿意和我聊聊 💖&lt;br&gt;点下面的按钮就能找到人家啦~&lt;br&gt;(&gt;﹏&lt;)&lt;/p&gt;
+      &lt;button onclick='goToQQ()'&gt;✨ 来找人家玩 ✨&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+    function showThanks() {
+      document.getElementById('cute-popup').style.display = 'block';
+    }
+    function goToQQ() {
+      window.location.href = 'https://qm.qq.com/q/9tcfSwgVNe';
+    }
+    document.onkeydown = function (e) {
+      if (e.keyCode == 123 || (e.ctrlKey &amp;&amp; (e.keyCode == 85 || e.keyCode == 83))) {
+        alert('嘤嘤嘤~宝宝，不要扒人家的代码啦！QAQ');
+        return false;
+      }
+    };
+    (function () {
+      var element = new Image();
+      Object.defineProperty(element, 'id', {
+        get: function () {
+          alert('喵喵喵~你在干嘛呀QAQ？');
+          window.location.href = 'about:blank';
+        }
+      });
+      console.log('%c ', element);
+    })();
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</guid><pubDate>Tue, 27 Jan 2026 12:07:15 +0000</pubDate></item><item><title>Hello&amp;Qgxs引导页</title><link>https://blog.20210701.xyz/post/Hello%26Qgxs-yin-dao-ye.html</link><description>Hello&amp;Qgxs引导页
+html单页
+AI写的
+自适应页面
+可以托管Cloudflare 
+
+当做小页面放在博客里面，挺不错的
+我的演示页面[www.20210701.xyz](https://www.20210701.xyz/)
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;meta name='robots' content='index, follow'&gt;
+    &lt;meta name='description' content='Hello Qgxs - 欢迎来到我的个人网站'&gt;
+    &lt;meta name='theme-color' content='#0ea5e9'&gt;
+    &lt;!-- Cloudflare优化 --&gt;
+    &lt;meta http-equiv='Cache-Control' content='public, max-age=31536000, immutable'&gt;
+    &lt;meta http-equiv='X-UA-Compatible' content='IE=edge'&gt;
+    &lt;title&gt;Qgxs&amp;Hello&lt;/title&gt;
+    &lt;link rel='preconnect' href='https://fonts.googleapis.com'&gt;
+    &lt;link rel='preconnect' href='https://fonts.gstatic.com' crossorigin&gt;
+    &lt;link rel='preconnect' href='https://events.vercount.one' crossorigin&gt;
+    &lt;link rel='preconnect' href='https://blog.20210701.xyz' crossorigin&gt;
+    &lt;link href='https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap&amp;text=Hello%20Qgxs' rel='stylesheet' media='print' onload='this.media='all''&gt;
+    &lt;noscript&gt;
+        &lt;link href='https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap' rel='stylesheet'&gt;
+    &lt;/noscript&gt;
+    &lt;style&gt;*{margin:0;padding:0;box-sizing:border-box}:root{--primary:#0ea5e9;--dark:#0f172a}body{background-color:var(--dark);color:white;font-family:system-ui,-apple-system,sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}.text-gradient{background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}.glow{filter:drop-shadow(0 0 6px rgba(14,165,233,0.5));-webkit-filter:drop-shadow(0 0 6px rgba(14,165,233,0.5))}.bg-grid{background-size:20px 20px;background-image:linear-gradient(to right,rgba(14,165,233,0.03) 1px,transparent 1px),linear-gradient(to bottom,rgba(14,165,233,0.03) 1px,transparent 1px)}@keyframes sweep{0%{background-position:-200% 0}100%{background-position:200% 0}}.text-sweep{background:linear-gradient(90deg,rgba(255,255,255,0.1),rgba(255,255,255,0.9),rgba(255,255,255,0.1));background-size:200% 100%;animation:sweep 4s ease-in-out infinite;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}.compact-stat{background:rgba(14,165,233,0.08);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);border:1px solid rgba(14,165,233,0.15)}.fixed-bg{position:fixed;inset:0;z-index:0}.bg-blob{position:fixed;border-radius:50%;filter:blur(80px);opacity:0.15;pointer-events:none}.bg-blob-1{width:60vh;height:60vh;background-color:var(--primary);transform:translate(-50%,-50%);z-index:0}.bg-blob-2{width:40vh;height:40vh;background-color:var(--primary);opacity:0.1;transform:translate(33%,33%);z-index:0}main{position:relative;z-index:10;display:flex;flex-direction:column;align-items:center;text-align:center;padding:1.5rem;width:100%;max-width:32rem;opacity:0;transform:translateY(20px);animation:fadeIn 0.6s ease forwards;animation-delay:0.1s}@keyframes fadeIn{to{opacity:1;transform:translateY(0)}}.avatar-container{margin-bottom:1rem}.avatar{width:6rem;height:6rem;border-radius:50%;overflow:hidden;border:2px solid rgba(14,165,233,0.3)}@media (min-width:768px){.avatar{width:7rem;height:7rem}}.avatar img{width:100%;height:100%;object-fit:cover}h1{font-size:clamp(2rem,5vw,3rem);font-family:'Pacifico',cursive;margin-bottom:0.5rem}.welcome-text{color:#9ca3af;font-size:0.875rem;margin-bottom:1.5rem;max-width:24rem;line-height:1.5;padding:0 1rem}@media (min-width:768px){.welcome-text{font-size:1rem}}.button-group{display:flex;gap:0.75rem;margin-bottom:1.5rem}.btn{padding:0.5rem 1rem;border-radius:9999px;background-color:rgba(255,255,255,0.05);color:white;text-decoration:none;display:flex;align-items:center;gap:0.375rem;font-size:0.875rem;transition:all 0.3s ease}.btn:hover{background-color:rgba(255,255,255,0.1);transform:scale(1.05)}.btn-primary{padding:0.625rem 1.5rem;background:linear-gradient(to right,var(--primary),#38bdf8);color:white;font-weight:500}.btn-primary:hover{background:linear-gradient(to right,#38bdf8,var(--primary));background-color:transparent}.stats{position:relative;z-index:10;margin:0.5rem 0}.compact-stat{padding:0.375rem 0.75rem;border-radius:9999px;display:flex;align-items:center;gap:0.75rem;font-size:0.75rem}.stat-item{display:flex;align-items:center;gap:0.25rem}.stat-divider{color:rgba(14,165,233,0.4)}footer{position:relative;z-index:10;margin-top:0.25rem;padding:1rem;color:#9ca3af;font-size:0.75rem;width:100%;text-align:center}.animate-pulse{animation:pulse 0.5s ease-in-out}@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class='fixed-bg bg-grid'&gt;&lt;/div&gt;
+    &lt;div class='bg-blob bg-blob-1'&gt;&lt;/div&gt;
+    &lt;div class='bg-blob bg-blob-2'&gt;&lt;/div&gt;
+
+    &lt;main&gt;
+        &lt;div class='avatar-container'&gt;
+            &lt;div class='avatar glow'&gt;
+                &lt;img src='https://blog.20210701.xyz/130044290.png' alt='Avatar' loading='lazy' decoding='async'&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;h1 data-text='Hello Qgxs'&gt;
+            &lt;span class='text-sweep'&gt;Hello Qgxs&lt;/span&gt;
+        &lt;/h1&gt;
+
+        &lt;!-- 紧凑版欢迎文本 --&gt;
+        &lt;div class='welcome-text'&gt;
+            &lt;p&gt;
+                &lt;span style='color: rgba(14, 165, 233, 0.9);'&gt;欢迎到来。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/Hello%26Qgxs-yin-dao-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:49:53 +0000</pubDate></item><item><title>中国共产党成立100周年纪念单页</title><link>https://blog.20210701.xyz/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</link><description>html单页
+AI写的
+自适应页面
+可以托管Cloudflare 
+
+当做小页面放在博客里面，挺不错的
+我的演示页面:[20210701.xyz](https://20210701.xyz/)
+```
+&lt;!doctype html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+  &lt;meta charset='utf-8' /&gt;
+  &lt;meta name='viewport' content='width=device-width,initial-scale=1' /&gt;
+  &lt;title&gt;百年征程 · 热烈庆祝中国共产党成立100周年&lt;/title&gt;
+
+  &lt;link href='https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;family=ZCOOL+QingKe+HuangYou&amp;display=swap' rel='stylesheet'&gt;
+
+  &lt;style&gt;
+  :root{
+    --red:#C91F1F;
+    --deep-red:#961414;
+    --gold:#D9A441;
+    --bg:#FFF8F2;
+    --text:#3b2f2f;
+    --glass: rgba(255,255,255,0.65);
+    --lantern-width:120px;
+    --max-width:1100px;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family: 'Noto Serif SC', 'ZCOOL QingKe HuangYou', serif;
+    color:var(--text);
+    background:linear-gradient(180deg,#fff 0%, #FFF8F2 40%, #FFF1E6 100%);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    overflow-y:auto;
+  }
+  .ink-bg{
+    position:fixed;
+    inset:0;
+    background-image:
+      radial-gradient(circle at 8% 18%, rgba(0,0,0,0.02) 0 2%, transparent 10%),
+      radial-gradient(circle at 88% 78%, rgba(0,0,0,0.02) 0 2%, transparent 12%);
+    mix-blend-mode:multiply;
+    pointer-events:none;
+    z-index:0;
+  }
+
+  /* HERO */
+  .hero{position:relative;padding:36px 20px;overflow:hidden}
+  .hero-inner{
+    display:flex;align-items:center;justify-content:space-between;gap:18px;
+    max-width:1200px;margin:0 auto;position:relative;z-index:2;transition:transform .12s linear;
+  }
+  .left-deco,.right-deco{width:110px;flex:0 0 110px}
+  .title-wrap{flex:1;text-align:center}
+  .title{
+    font-family:'ZCOOL QingKe HuangYou','Noto Serif SC',serif;color:var(--deep-red);
+    font-size:56px;margin:0;letter-spacing:2px;text-shadow:0 6px 18px rgba(201,31,31,0.12);
+    transform-origin:center;animation:float 6s ease-in-out infinite;
+  }
+  .subtitle{margin:8px 0 18px;color:#5c3e3e;font-size:16px}
+  .ribbon{margin-top:14px;display:inline-block;background:linear-gradient(90deg,#D94343,#C22B2B);
+    color:#FFF8F2;padding:8px 18px;border-radius:999px;box-shadow:0 6px 18px rgba(201,31,31,0.12);
+    font-weight:600;letter-spacing:1px;font-size:14px}
+
+  .clouds{position:absolute;left:0;right:0;bottom:-2px;height:120px;opacity:0.95;z-index:1}
+
+  /* 布局：概览 + 时间轴（Grid 版，增强响应式） */
+  .container{max-width:var(--max-width);margin:28px auto;padding:0 20px;display:block;gap:20px}
+  .card{
+    background:linear-gradient(180deg, rgba(255,255,255,0.82), rgba(255,250,245,0.96));
+    border-radius:12px;padding:18px;box-shadow:0 8px 30px rgba(0,0,0,0.06);border:1px solid rgba(0,0,0,0.03);
+  }
+  .card h2{margin:0 0 8px 0}
+  .card p{margin:0;font-size:15px;line-height:1.7}
+
+  /* 纵向时间轴（基于 Grid 的行） */
+  .timeline{padding:24px 16px 46px}
+  .section-title{text-align:center;font-size:24px;margin:8px 0 20px;color:var(--deep-red)}
+  .v-timeline{max-width:var(--max-width);margin:0 auto;position:relative;padding:20px 10px}
+  .v-timeline::before{
+    content:'';
+    position:absolute;
+    left:50%;
+    top:8px;
+    bottom:8px;
+    width:6px;
+    transform:translateX(-50%);
+    background:linear-gradient(180deg,var(--gold),rgba(217,175,74,0.6));
+    border-radius:6px;
+  }
+  .v-row{
+    display:grid;
+    grid-template-columns:1fr 60px 1fr;
+    column-gap:20px;
+    align-items:start;
+    margin:18px 0;
+    grid-auto-rows:auto;
+    width:100%;
+  }
+  .v-item{
+    padding:14px 18px;border-radius:12px;background:linear-gradient(180deg,#fff,#FFF7F5);
+    box-shadow:0 8px 24px rgba(0,0,0,0.06);transition:transform .25s ease;
+    width:100%;
+  }
+  .v-item:hover{transform:translateY(-6px)}
+  .v-item .year{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--red);color:#fff;font-weight:700;margin-bottom:8px}
+  .v-item h4{margin:6px 0 8px;color:var(--deep-red)}
+  .v-item p{margin:0;color:#5b4343;line-height:1.6}
+  .v-center{display:flex;align-items:start;justify-content:center}
+  .v-dot{
+    width:16px;height:16px;border-radius:50%;background:var(--red);
+    box-shadow:0 0 0 6px rgba(201,31,31,0.08);
+    margin-top:12px;
+    position:relative;
+  }
+
+  /* 庆祝区：放飞灯笼 */
+  .celebrate{padding:32px 16px}
+  .celebrate .panel{max-width:var(--max-width);margin:0 auto;background:linear-gradient(180deg,#fff,#FFF8F6);padding:18px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.06)}
+  .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+  .controls input[type='text']{flex:1;padding:10px 12px;border-radius:10px;border:1px solid rgba(0,0,0,0.08);font-size:15px}
+  .controls .btn{padding:10px 14px;border-radius:10px;cursor:pointer;background:var(--glass);border:1px solid rgba(0,0,0,0.06)}
+  .controls .btn.primary{background:linear-gradient(180deg,var(--red),var(--deep-red));color:#fff;border:none}
+  .preset-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+  .preset{padding:8px 12px;border-radius:999px;background:linear-gradient(90deg,#FFF4E8,#FFF0E6);border:1px solid rgba(0,0,0,0.04);cursor:pointer}
+
+  /* 放飞容器（覆盖层） */
+  .sky{position:fixed;inset:0;pointer-events:none;z-index:60;overflow:visible}
+  .lantern{
+    position:absolute;width:var(--lantern-width);height:160px;left:50%;transform:translateX(-50%);
+    pointer-events:none;will-change:transform,opacity;
+    display:flex;align-items:flex-start;justify-content:center;
+    font-family:'Noto Serif SC',serif;color:#3b1f1f;text-align:center;
+  }
+  .lantern .svg-wrap{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+  .lantern .msg{position:absolute;top:42%;left:50%;transform:translate(-50%,-50%);font-size:14px;padding:6px 8px;color:#2b100f;background:transparent;white-space:nowrap}
+  @keyframes floatUp {
+    0%{transform:translate(-50%, 0) scale(1); opacity:1}
+    25%{transform:translate(calc(-50% + 20px), -25vh) scale(1.02)}
+    60%{transform:translate(calc(-50% - 12px), -65vh) scale(1.04)}
+    100%{transform:translate(calc(-50% + 8px), -120vh) scale(1.08); opacity:0}
+  }
+
+  /* 花瓣样式 */
+  .petal{position:fixed;border-radius:45% 55% 40% 60%;pointer-events:none;mix-blend-mode:screen;will-change:transform,top,left,opacity;z-index:55}
+
+  /* footer */
+  .site-footer{padding:18px;text-align:center;color:#6b5656;font-size:14px;border-top:1px solid rgba(0,0,0,0.02);margin-top:28px}
+  .site-footer a.footer-link{color:var(--deep-red);text-decoration:none;font-weight:600}
+  .site-footer a.footer-link:hover{text-decoration:underline}
+
+  /* 响应式：手机/窄屏下 — 去掉左侧竖线和圆点，保留对齐与触控间距 */
+  @media (max-width:900px){
+    .v-row{
+      grid-template-columns:12px 1fr; /* 保留小间隙用于视觉平衡 */
+      column-gap:12px;
+      align-items:start;
+    }
+
+    /* 隐藏原来的竖线（desktop-only） */
+    .v-timeline::before{
+      display:none;
+    }
+
+    /* 保证第一列（占位）与第二列内容的默认分配 */
+    .v-row &gt; div:first-child{
+      grid-column:1;
+      display:block;
+      padding-top:6px;
+    }
+    .v-row &gt; div:last-child{
+      grid-column:2;
+    }
+
+    /* 隐藏小屏上的圆点与其伪元素 */
+    .v-dot,
+    .v-dot::before,
+    .v-dot::after {
+      display:none !important;
+    }
+
+    /* 减小卡片内边距，提升可读性 */
+    .v-item{padding:12px 14px;border-radius:10px}
+    .v-item h4{font-size:16px}
+    .v-item p{font-size:14px}
+    .left-deco,.right-deco{display:none}
+
+    /* 触摸友好：让时间轴项可聚焦（便于键盘/屏幕阅读器） */
+    .v-item{outline: none}
+    .v-item:focus{box-shadow:0 0 0 3px rgba(217,164,68,0.12);transform:none}
+  }
+
+  /* prefers-reduced-motion 支持（尊重用户偏好） */
+  @media (prefers-reduced-motion: reduce) {
+    .title { animation: none !important; }
+    .lantern { animation: none !important; transition: none !important; opacity: 1 !important; }
+    .petal { transition: none !important; }
+    .v-item, .v-item:hover { transform: none !important; }
+  }
+
+  /* 限制 hero 视差在超大屏时的偏移（更稳健） */
+  @media (min-width:1400px){
+    .hero-inner{max-width:1300px}
+  }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class='ink-bg' aria-hidden='true'&gt;&lt;/div&gt;
+
+  &lt;header class='hero' role='banner'&gt;
+    &lt;div class='hero-inner' id='heroInner'&gt;
+      &lt;div class='left-deco' aria-hidden='true'&gt;
+        &lt;svg viewBox='0 0 200 200' width='110' height='110' aria-hidden='true'&gt;
+          &lt;defs&gt;&lt;linearGradient id='g1' x1='0' x2='1'&gt;&lt;stop offset='0' stop-color='#fff' stop-opacity='0.95'/&gt;&lt;stop offset='1' stop-color='#FFD7D7'/&gt;&lt;/linearGradient&gt;&lt;/defs&gt;
+          &lt;g fill='url(#g1)' stroke='#E04B3A' stroke-width='1.5'&gt;&lt;path d='M100 20 C92 34,76 34,64 46 C86 44,84 74,100 74 C116 74,114 44,136 46 C124 34,108 34,100 20 Z'/&gt;&lt;circle cx='100' cy='88' r='6' fill='#E04B3A'/&gt;&lt;/g&gt;
+        &lt;/svg&gt;
+      &lt;/div&gt;
+
+      &lt;div class='title-wrap'&gt;
+        &lt;h1 class='title' id='mainTitle'&gt;百年征程&lt;/h1&gt;
+        &lt;p class='subtitle'&gt;热烈庆祝中国共产党成立100周年&lt;/p&gt;
+        &lt;div class='ribbon' aria-hidden='true'&gt;1921 — 2021 · 不忘初心 牢记使命&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class='right-deco' aria-hidden='true'&gt;
+        &lt;svg viewBox='0 0 120 220' width='110' height='110' aria-hidden='true'&gt;
+          &lt;g transform='translate(10,10)'&gt;&lt;ellipse cx='50' cy='70' rx='42' ry='56' fill='#D92E2E' stroke='#B22222' stroke-width='2'/&gt;&lt;rect x='46' y='6' width='8' height='20' fill='#B22222'/&gt;&lt;path d='M50 126 L50 150' stroke='#B22222' stroke-width='3' /&gt;&lt;/g&gt;
+        &lt;/svg&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;svg class='clouds' viewBox='0 0 1400 200' preserveAspectRatio='none' aria-hidden='true'&gt;
+      &lt;path d='M0 120 C150 40, 350 40, 500 120 C650 200, 850 200, 1000 120 C1150 40, 1250 40, 1400 120 L1400 200 L0 200 Z' fill='#FFF4E8' opacity='0.85'/&gt;
+    &lt;/svg&gt;
+  &lt;/header&gt;
+
+  &lt;main&gt;
+    &lt;section class='container' aria-label='概览'&gt;
+      &lt;div class='card' role='region' aria-labelledby='aboutTitle'&gt;
+        &lt;h2 id='aboutTitle'&gt;百年光辉 · 百年征程&lt;/h2&gt;
+        &lt;p&gt;
+          百年，是历史在时光上刻下的深深纹理；百年，也是每一次初心的温热延续。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:47:47 +0000</pubDate></item><item><title>一个粉不拉几的宝塔默认页面系列</title><link>https://blog.20210701.xyz/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-ye-mian-xi-lie.html</link><description>### 1.站点搭建成功提示
+![1768750745561_edit_723285037835753.jpg](https://github.com/user-attachments/assets/958a6118-0a9e-4a8b-8d4b-8c7ee41b3949)
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;站点搭建成功 ✧(≖ ◡ ≖✿)&lt;/title&gt;
+    &lt;style&gt;
+        * {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;}
+        body {min-height: 100vh;display: flex;align-items: center;justify-content: center;background: #fff5f8;padding: 20px;position: relative;overflow: hidden;}
+        /* 可爱漂浮装饰 */
+        .decor {position: absolute;pointer-events: none;z-index: 0;}
+        .decor1 {top: 20%;left: 10%;font-size: 24px;color: #ffd6e0;animation: float 6s infinite ease-in-out;}
+        .decor2 {bottom: 15%;right: 15%;font-size: 18px;color: #ffb3c6;animation: float 8s infinite ease-in-out 2s;}
+        .decor3 {top: 60%;left: 20%;font-size: 20px;color: #ff99cc;animation: float 7s infinite ease-in-out 1s;}
+        @keyframes float {
+            0% {transform: translateY(0) rotate(0deg);}
+            50% {transform: translateY(-15px) rotate(5deg);}
+            100% {transform: translateY(0) rotate(0deg);}
+        }
+        /* 宝塔原生风格容器 */
+        .box {
+            background: #fff;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-shadow: 0 3px 15px rgba(255,153,204,0.2);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            border: 2px solid #ffd6e0;
+        }
+        /* 可爱成功图标（替换原svg） */
+        .success-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+        .success-icon::before {
+            content: '✧';
+            font-size: 64px;
+            color: #ff6699;
+            animation: bounce 1.5s infinite alternate;
+        }
+        @keyframes bounce {
+            from {transform: scale(1);}
+            to {transform: scale(1.1);}
+        }
+        h1 {
+            font-size: 22px; /* 手机端缩小字体 */
+            color: #ff6699;
+            margin: 0 0 16px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(255,102,153,0.15);
+            letter-spacing: 0.5px; /* 微调字间距，避免换行 */
+        }
+        /* 响应式标题优化：小屏幕进一步缩小颜文字占比 */
+        @media (max-width: 375px) {
+            h1 {
+                font-size: 20px;
+                padding: 0 10px; /* 增加左右内边距，给文字更多空间 */
+            }
+            h1 span {
+                font-size: 18px; /* 颜文字单独缩小 */
+            }
+        }
+        p {
+            color: #999;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 28px;
+        }
+        /* 按钮样式（粉嫩主题） */
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ff99cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(255,153,204,0.2);
+        }
+        a:hover {
+            background: #ff6699;
+            box-shadow: 0 4px 12px rgba(255,102,153,0.3);
+            transform: translateY(-2px);
+        }
+        /* 底部版权 */
+        .footer {
+            font-size: 12px;
+            color: #ffb3c6;
+            margin-top: 30px;
+            letter-spacing: 0.5px;
+        }
+        .footer::after {
+            content: ' ✧ෆ◞◟˃̶̤⌄˂̶̤⋆biubiu';
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- 可爱漂浮装饰 --&gt;
+    &lt;div class='decor decor1'&gt;✿&lt;/div&gt;
+    &lt;div class='decor decor2'&gt;★&lt;/div&gt;
+    &lt;div class='decor decor3'&gt;♡&lt;/div&gt;
+
+    &lt;div class='box'&gt;
+        &lt;div class='success-icon'&gt;&lt;/div&gt;
+        &lt;!-- 标题拆分颜文字，方便响应式调整 --&gt;
+        &lt;h1&gt;站点搭建成功啦 &lt;span&gt;✧(≖ ◡ ≖✿)&lt;/span&gt;&lt;/h1&gt;
+        &lt;p&gt;粉嫩小站已就绪，快去探索更多可爱玩法吧～&lt;/p&gt;
+        &lt;a href='https://www.bt.cn/' target='_blank'&gt;官方文档&lt;/a&gt;
+        &lt;div class='footer'&gt;© 宝塔面板 服务器管理工具&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+```
+### 2.404提示页面
+![1768750993209.webp](https://github.com/user-attachments/assets/ec81d7c9-07ac-4268-9d2c-63cb8d0baf43)
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;页面走丢啦 ✧(≖ ◡ ≖✿)&lt;/title&gt;
+    &lt;style&gt;
+        * {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;}
+        body {min-height: 100vh;display: flex;align-items: center;justify-content: center;background: #fff5f8;padding: 20px;position: relative;overflow: hidden;}
+        /* 可爱漂浮装饰 */
+        .decor {position: absolute;pointer-events: none;z-index: 0;}
+        .decor1 {top: 20%;left: 10%;font-size: 24px;color: #ffd6e0;animation: float 6s infinite ease-in-out;}
+        .decor2 {bottom: 15%;right: 15%;font-size: 18px;color: #ffb3c6;animation: float 8s infinite ease-in-out 2s;}
+        .decor3 {top: 60%;left: 20%;font-size: 20px;color: #ff99cc;animation: float 7s infinite ease-in-out 1s;}
+        .decor4 {top: 30%;right: 20%;font-size: 22px;color: #ffc2d1;animation: float 9s infinite ease-in-out 1.5s;}
+        @keyframes float {
+            0% {transform: translateY(0) rotate(0deg);}
+            50% {transform: translateY(-15px) rotate(5deg);}
+            100% {transform: translateY(0) rotate(0deg);}
+        }
+        /* 宝塔原生风格容器 */
+        .box {
+            background: #fff;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-shadow: 0 3px 15px rgba(255,153,204,0.2);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            border: 2px solid #ffd6e0;
+        }
+        /* 404可爱图标 */
+        .error-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+        .error-icon::before {
+            content: '404';
+            font-size: 64px;
+            color: #ff6699;
+            font-weight: 700;
+            animation: bounce 1.5s infinite alternate;
+        }
+        @keyframes bounce {
+            from {transform: scale(1);}
+            to {transform: scale(1.1);}
+        }
+        h1 {
+            font-size: 22px;
+            color: #ff6699;
+            margin: 0 0 16px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(255,102,153,0.15);
+            letter-spacing: 0.5px;
+        }
+        /* 手机小屏响应式优化 */
+        @media (max-width: 375px) {
+            h1 {
+                font-size: 20px;
+                padding: 0 10px;
+            }
+            h1 span {
+                font-size: 18px;
+            }
+        }
+        p {
+            color: #999;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 28px;
+            padding: 0 10px;
+        }
+        /* 粉嫩返回按钮 */
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ff99cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(255,153,204,0.2);
+        }
+        a:hover {
+            background: #ff6699;
+            box-shadow: 0 4px 12px rgba(255,102,153,0.3);
+            transform: translateY(-2px);
+        }
+        /* 底部版权 */
+        .footer {
+            font-size: 12px;
+            color: #ffb3c6;
+            margin-top: 30px;
+            letter-spacing: 0.5px;
+        }
+        .footer::after {
+            content: ' ✧ෆ◞◟˃̶̤⌄˂̶̤⋆biubiu';
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- 可爱漂浮装饰 --&gt;
+    &lt;div class='decor decor1'&gt;✿&lt;/div&gt;
+    &lt;div class='decor decor2'&gt;★&lt;/div&gt;
+    &lt;div class='decor decor3'&gt;♡&lt;/div&gt;
+    &lt;div class='decor decor4'&gt;🌸&lt;/div&gt;
+
+    &lt;div class='box'&gt;
+        &lt;div class='error-icon'&gt;&lt;/div&gt;
+        &lt;h1&gt;页面走丢啦 &lt;span&gt;✧(≖ ◡ ≖✿)&lt;/span&gt;&lt;/h1&gt;
+        &lt;p&gt;糟糕！你访问的页面迷路了，快回到首页找找它吧～&lt;/p&gt;
+        &lt;a href='/' target='_self'&gt;返回首页&lt;/a&gt;
+        &lt;div class='footer'&gt;© 宝塔面板 服务器管理工具&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+```
+
+### 3.没有页面提示
+![1768883892665.webp](https://github.com/user-attachments/assets/10033a7b-99be-48ef-87e4-64a4cb491fd3)
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;没有找到站点 - 宝塔面板&lt;/title&gt;
+    &lt;style&gt;
+        * {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;}
+        body {min-height: 100vh;display: flex;align-items: center;justify-content: center;background: #fff5f8;padding: 20px;position: relative;overflow: hidden;}
+        .decor {position: absolute;pointer-events: none;z-index: 0;}
+        .decor1 {top: 20%;left: 10%;font-size: 24px;color: #ffd6e0;animation: float 6s infinite ease-in-out;}
+        .decor2 {bottom: 15%;right: 15%;font-size: 18px;color: #ffb3c6;animation: float 8s infinite ease-in-out 2s;}
+        .decor3 {top: 60%;left: 20%;font-size: 20px;color: #ff99cc;animation: float 7s infinite ease-in-out 1s;}
+        .decor4 {top: 30%;right: 20%;font-size: 22px;color: #ffc2d1;animation: float 9s infinite ease-in-out 1.5s;}
+        @keyframes float {
+            0% {transform: translateY(0) rotate(0deg);}
+            50% {transform: translateY(-15px) rotate(5deg);}
+            100% {transform: translateY(0) rotate(0deg);}
+        }
+        .box {
+            background: #fff;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-shadow: 0 3px 15px rgba(255,153,204,0.2);
+            text-align: left;
+            max-width: 480px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            border: 2px solid #ffd6e0;
+        }
+        .error-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            position: relative;
+            text-align: center;
+        }
+        .error-icon::before {
+            content: '！';
+            font-size: 64px;
+            color: #ff6699;
+            font-weight: 700;
+            animation: bounce 1.5s infinite alternate;
+        }
+        @keyframes bounce {
+            from {transform: scale(1);}
+            to {transform: scale(1.1);}
+        }
+        h1 {
+            font-size: 22px;
+            color: #ff6699;
+            margin: 0 0 16px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(255,102,153,0.15);
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+        @media (max-width: 375px) {
+            h1 {font-size: 20px;padding: 0 10px;}
+            .content p, .content li {font-size: 14px;}
+        }
+        .t1 {
+            color: #999;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            padding: 0 10px;
+            text-align: center;
+        }
+        .t2 {
+            font-size: 16px;
+            color: #ff6699;
+            margin: 0 0 10px 10px;
+            font-weight: 500;
+        }
+        .content ol {
+            padding: 0 30px;
+            margin-bottom: 20px;
+        }
+        .content li {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.8;
+            margin-bottom: 6px;
+        }
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ff99cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(255,153,204,0.2);
+            margin: 0 auto;
+            display: block;
+            width: fit-content;
+        }
+        a:hover {
+            background: #ff6699;
+            box-shadow: 0 4px 12px rgba(255,102,153,0.3);
+            transform: translateY(-2px);
+        }
+        .footer {
+            font-size: 12px;
+            color: #ffb3c6;
+            margin-top: 30px;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+        .footer::after {
+            content: ' ✧ෆ◞◟˃̶̤⌄˂̶̤⋆biubiu';
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class='decor decor1'&gt;✿&lt;/div&gt;
+    &lt;div class='decor decor2'&gt;★&lt;/div&gt;
+    &lt;div class='decor decor3'&gt;♡&lt;/div&gt;
+    &lt;div class='decor decor4'&gt;🌸&lt;/div&gt;
+
+    &lt;div class='box'&gt;
+        &lt;div class='error-icon'&gt;&lt;/div&gt;
+        &lt;h1&gt;没有找到站点 ✧(≖ ◡ ≖✿)&lt;/h1&gt;
+        &lt;div class='content'&gt;
+            &lt;p class='t1'&gt;您的请求在Web服务器中没有找到对应的站点！&lt;/p&gt;
+            &lt;p class='t2'&gt;可能原因：&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;li&gt;您没有将此域名或IP绑定到对应站点!&lt;/li&gt;
+                &lt;li&gt;配置文件未生效!&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p class='t2'&gt;如何解决：&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;li&gt;检查是否已经绑定到对应站点，若确认已绑定，请尝试重载Web服务；&lt;/li&gt;
+                &lt;li&gt;检查端口是否正确；&lt;/li&gt;
+                &lt;li&gt;若您使用了CDN产品，请尝试清除CDN缓存；&lt;/li&gt;
+                &lt;li&gt;普通网站访客，请联系网站管理员；&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;a href='/' target='_self'&gt;返回首页&lt;/a&gt;
+        &lt;div class='footer'&gt;© 宝塔面板 服务器管理工具&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+```
+### 4.服务已停止
+![1768883894216.webp](https://github.com/user-attachments/assets/c0f612f0-c585-415c-8324-01a27ae0ecac)
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;服务已停止使用 - 宝塔面板&lt;/title&gt;
+    &lt;style&gt;
+        * {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;}
+        body {min-height: 100vh;display: flex;align-items: center;justify-content: center;background: #fff5f8;padding: 20px;position: relative;overflow: hidden;}
+        .decor {position: absolute;pointer-events: none;z-index: 0;}
+        .decor1 {top: 20%;left: 10%;font-size: 24px;color: #ffd6e0;animation: float 6s infinite ease-in-out;}
+        .decor2 {bottom: 15%;right: 15%;font-size: 18px;color: #ffb3c6;animation: float 8s infinite ease-in-out 2s;}
+        .decor3 {top: 60%;left: 20%;font-size: 20px;color: #ff99cc;animation: float 7s infinite ease-in-out 1s;}
+        .decor4 {top: 30%;right: 20%;font-size: 22px;color: #ffc2d1;animation: float 9s infinite ease-in-out 1.5s;}
+        @keyframes float {
+            0% {transform: translateY(0) rotate(0deg);}
+            50% {transform: translateY(-15px) rotate(5deg);}
+            100% {transform: translateY(0) rotate(0deg);}
+        }
+        .box {
+            background: #fff;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-shadow: 0 3px 15px rgba(255,153,204,0.2);
+            text-align: left;
+            max-width: 480px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            border: 2px solid #ffd6e0;
+        }
+        .error-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            position: relative;
+            text-align: center;
+        }
+        .error-icon::before {
+            content: '⊗';
+            font-size: 64px;
+            color: #ff6699;
+            font-weight: 700;
+            animation: bounce 1.5s infinite alternate;
+        }
+        @keyframes bounce {
+            from {transform: scale(1);}
+            to {transform: scale(1.1);}
+        }
+        h1 {
+            font-size: 22px;
+            color: #ff6699;
+            margin: 0 0 16px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(255,102,153,0.15);
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+        @media (max-width: 375px) {
+            h1 {font-size: 20px;padding: 0 10px;}
+            .content p, .content li {font-size: 14px;}
+        }
+        .t1 {
+            color: #999;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            padding: 0 10px;
+            text-align: center;
+        }
+        .t2 {
+            font-size: 16px;
+            color: #ff6699;
+            margin: 0 0 10px 10px;
+            font-weight: 500;
+        }
+        .content ol {
+            padding: 0 30px;
+            margin-bottom: 20px;
+        }
+        .content li {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.8;
+            margin-bottom: 6px;
+        }
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ff99cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(255,153,204,0.2);
+            margin: 0 auto;
+            display: block;
+            width: fit-content;
+        }
+        a:hover {
+            background: #ff6699;
+            box-shadow: 0 4px 12px rgba(255,102,153,0.3);
+            transform: translateY(-2px);
+        }
+        .footer {
+            font-size: 12px;
+            color: #ffb3c6;
+            margin-top: 30px;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+        .footer::after {
+            content: ' ✧ෆ◞◟˃̶̤⌄˂̶̤⋆biubiu';
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class='decor decor1'&gt;✿&lt;/div&gt;
+    &lt;div class='decor decor2'&gt;★&lt;/div&gt;
+    &lt;div class='decor decor3'&gt;♡&lt;/div&gt;
+    &lt;div class='decor decor4'&gt;🌸&lt;/div&gt;
+
+    &lt;div class='box'&gt;
+        &lt;div class='error-icon'&gt;&lt;/div&gt;
+        &lt;h1&gt;服务已停止使用 ✧(≖ ◡ ≖✿)&lt;/h1&gt;
+        &lt;div class='content'&gt;
+            &lt;p class='t1'&gt;当前站点/服务已正式停止使用，暂无法提供访问服务&lt;/p&gt;
+            &lt;p class='t2'&gt;可能原因：&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;li&gt;站点到期未续费、主体信息变更导致服务终止；&lt;/li&gt;
+                &lt;li&gt;服务存在合规问题，按相关要求停止运营；&lt;/li&gt;
+                &lt;li&gt;管理员主动注销站点，相关资源已清理；&lt;/li&gt;
+                &lt;li&gt;功能迭代升级，原服务已下线并替换为新功能；&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p class='t2'&gt;相关建议：&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;li&gt;站点管理员可登录服务器面板，检查站点配置及资源状态；&lt;/li&gt;
+                &lt;li&gt;确认站点备案/主体信息是否有效，及时完成更新或续费；&lt;/li&gt;
+                &lt;li&gt;普通访客可联系站点运营方，获取服务最新动态；&lt;/li&gt;
+                &lt;li&gt;若为功能下线，可前往平台首页查看替代功能及使用指引；&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;a href='/' target='_self'&gt;返回首页&lt;/a&gt;
+        &lt;div class='footer'&gt;© 宝塔面板 服务器管理工具&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+```
+
+### 5.域名停靠待启用
+![1769511780324.webp](https://github.com/user-attachments/assets/858cdb3b-454c-4851-8315-0782748bb8a9)
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;站点待启用 ✧(≖ ◡ ≖✿)&lt;/title&gt;
+    &lt;style&gt;
+        * {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Microsoft YaHei','PingFang SC',sans-serif;}
+        body {min-height: 100vh;display: flex;align-items: center;justify-content: center;background: #fff5f8;padding: 20px;position: relative;overflow: hidden;}
+        .decor {position: absolute;pointer-events: none;z-index: 0;color: #ffd6e0;animation: float 6s infinite ease-in-out;}
+        .decor1 {top:20%;left:10%;font-size:24px;}
+        .decor2 {bottom:15%;right:15%;font-size:18px;color:#ffb3c6;animation-delay:2s;animation-duration:8s;}
+        .decor3 {top:60%;left:20%;font-size:20px;color:#ff99cc;animation-delay:1s;animation-duration:7s;}
+        .decor4 {top:30%;right:20%;font-size:22px;color:#ffc2d1;animation-delay:1.5s;animation-duration:9s;}
+        @keyframes float {0%{transform:translateY(0)rotate(0deg);}50%{transform:translateY(-15px)rotate(5deg);}100%{transform:translateY(0)rotate(0deg);}}
+        .box {background:#fff;padding:40px 20px;border-radius:16px;box-shadow:0 3px 15px rgba(255,153,204,0.2);text-align:center;max-width:400px;width:100%;position:relative;z-index:1;border:2px solid #ffd6e0;}
+        .error-icon {width:64px;height:64px;margin:0 auto 20px;}
+        .error-icon::before {content:'♡';font-size:64px;color:#ff6699;font-weight:700;animation:bounce 1.5s infinite alternate;}
+        @keyframes bounce {from{transform:scale(1);}to{transform:scale(1.1);}}
+        h1 {font-size:22px;color:#ff6699;margin:0 0 16px;font-weight:600;text-shadow:0 1px 3px rgba(255,102,153,0.15);letter-spacing:0.5px;}
+        p {color:#999;font-size:15px;line-height:1.6;margin-bottom:28px;padding:0 10px;}
+        a {display:inline-block;padding:12px 30px;background:#ff99cc;color:#fff;text-decoration:none;border-radius:30px;font-size:15px;transition:all 0.3s ease;box-shadow:0 2px 8px rgba(255,153,204,0.2);}
+        a:hover {background:#ff6699;box-shadow:0 4px 12px rgba(255,102,153,0.3);transform:translateY(-2px);}
+        .footer {font-size:12px;color:#ffb3c6;margin-top:30px;letter-spacing:0.5px;}
+        .footer::after {content:' ✧ෆ◞◟˃̶̤⌄˂̶̤⋆biubiu';}
+        .cf-host {font-size:11px;color:#d8a8b8;margin-top:8px;}
+        @media(max-width:375px){h1{font-size:20px;padding:0 10px;}h1 span{font-size:18px;}}
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class='decor decor1'&gt;✿&lt;/div&gt;
+    &lt;div class='decor decor2'&gt;★&lt;/div&gt;
+    &lt;div class='decor decor3'&gt;♡&lt;/div&gt;
+    &lt;div class='decor decor4'&gt;🌸&lt;/div&gt;
+
+    &lt;div class='box'&gt;
+        &lt;div class='error-icon'&gt;&lt;/div&gt;
+        &lt;h1&gt;站点待启用 &lt;span&gt;✧(≖ ◡ ≖✿)&lt;/span&gt;&lt;/h1&gt;
+        &lt;p&gt;该域名暂未搭建站点服务，暂未正式启用哦～ 敬请期待后续更新呀～&lt;/p&gt;
+        &lt;a href='javascript:history.back()' target='_self'&gt;返回上一页&lt;/a&gt;
+        &lt;div class='footer'&gt;© 站点维护中 敬请期待&lt;/div&gt;
+        &lt;div class='cf-host'&gt;托管在 Cloudflare | 由 Cloudflare CDN 提供加速与安全防护&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+```
+直接Cloudflare Workers托管的版本
+```
+addEventListener('fetch', event =&gt; {
+  event.respondWith(handleRequest(event.request))
+})
+
+async function handleRequest(request) {
+  const html = `
+&lt;!DOCTYPE html&gt;
+&lt;html lang='zh-CN'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;站点待启用 ✧(≖ ◡ ≖✿)&lt;/title&gt;
+    &lt;style&gt;
+        * {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Microsoft YaHei','PingFang SC',sans-serif;}
+        body {min-height: 100vh;display: flex;align-items: center;justify-content: center;background: #fff5f8;padding: 20px;position: relative;overflow: hidden;}
+        .decor {position: absolute;pointer-events: none;z-index: 0;color: #ffd6e0;animation: float 6s infinite ease-in-out;}
+        .decor1 {top:20%;left:10%;font-size:24px;}
+        .decor2 {bottom:15%;right:15%;font-size:18px;color:#ffb3c6;animation-delay:2s;animation-duration:8s;}
+        .decor3 {top:60%;left:20%;font-size:20px;color:#ff99cc;animation-delay:1s;animation-duration:7s;}
+        .decor4 {top:30%;right:20%;font-size:22px;color:#ffc2d1;animation-delay:1.5s;animation-duration:9s;}
+        @keyframes float {0%{transform:translateY(0)rotate(0deg);}50%{transform:translateY(-15px)rotate(5deg);}100%{transform:translateY(0)rotate(0deg);}}
+        .box {background:#fff;padding:40px 20px;border-radius:16px;box-shadow:0 3px 15px rgba(255,153,204,0.2);text-align:center;max-width:400px;width:100%;position:relative;z-index:1;border:2px solid #ffd6e0;}
+        .error-icon {width:64px;height:64px;margin:0 auto 20px;}
+        .error-icon::before {content:'♡';font-size:64px;color:#ff6699;font-weight:700;animation:bounce 1.5s infinite alternate;}
+        @keyframes bounce {from{transform:scale(1);}to{transform:scale(1.1);}}
+        h1 {font-size:22px;color:#ff6699;margin:0 0 16px;font-weight:600;text-shadow:0 1px 3px rgba(255,102,153,0.15);letter-spacing:0.5px;}
+        p {color:#999;font-size:15px;line-height:1.6;margin-bottom:28px;padding:0 10px;}
+        a {display:inline-block;padding:12px 30px;background:#ff99cc;color:#fff;text-decoration:none;border-radius:30px;font-size:15px;transition:all 0.3s ease;box-shadow:0 2px 8px rgba(255,153,204,0.2);}
+        a:hover {background:#ff6699;box-shadow:0 4px 12px rgba(255,102,153,0.3);transform:translateY(-2px);}
+        .footer {font-size:12px;color:#ffb3c6;margin-top:30px;letter-spacing:0.5px;}
+        .footer::after {content:' ✧ෆ◞◟˃̶̤⌄˂̶̤⋆biubiu';}
+        .cf-host {font-size:11px;color:#d8a8b8;margin-top:8px;}
+        @media(max-width:375px){h1{font-size:20px;padding:0 10px;}h1 span{font-size:18px;}}
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class='decor decor1'&gt;✿&lt;/div&gt;
+    &lt;div class='decor decor2'&gt;★&lt;/div&gt;
+    &lt;div class='decor decor3'&gt;♡&lt;/div&gt;
+    &lt;div class='decor decor4'&gt;🌸&lt;/div&gt;
+
+    &lt;div class='box'&gt;
+        &lt;div class='error-icon'&gt;&lt;/div&gt;
+        &lt;h1&gt;站点待启用 &lt;span&gt;✧(≖ ◡ ≖✿)&lt;/span&gt;&lt;/h1&gt;
+        &lt;p&gt;该域名暂未搭建站点服务，暂未正式启用哦～ 敬请期待后续更新呀～&lt;/p&gt;
+        &lt;a href='＃' target='_self'&gt;返回到主站&lt;/a&gt;
+        &lt;div class='footer'&gt;© 站点维护中 敬请期待&lt;/div&gt;
+        &lt;div class='cf-host'&gt;托管在 Cloudflare | 由 Cloudflare CDN 提供加速与安全防护&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+`;
+
+  return new Response(html, {
+    headers: {
+      'Content-Type': 'text/html;charset=UTF-8',
+      'Cache-Control': 'no-cache'
+    }
+  })
+}
+
+```。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-ye-mian-xi-lie.html</guid><pubDate>Sun, 18 Jan 2026 15:40:30 +0000</pubDate></item><item><title>本站Gmeek的进阶功能</title><link>https://blog.20210701.xyz/post/ben-zhan-Gmeek-de-jin-jie-gong-neng.html</link><description>为了使得Gmeek的功能更加的丰富，我添加了插件的功能，目前已经有几个插件可以使用。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/ben-zhan-Gmeek-de-jin-jie-gong-neng.html</guid><pubDate>Sat, 10 Jan 2026 07:56:11 +0000</pubDate></item><item><title>酒馆实用插件推荐</title><link>https://blog.20210701.xyz/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</link><description># SillyTaverm实用插件&amp;资源推荐
+
+## 1. 酒馆助手 (Tavern-Helper)
+**作者**：@𝚔𝚊𝚔𝚊𝚊🫠、@青空莉正辟谣
+**简介**：为 SillyTavern 设计的多功能扩展，支持：
+- 在对话中渲染交互式界面（从按钮到复杂游戏界面）
+- 用 jQuery 操作 SillyTavern DOM（修改样式、绑定事件等）
+- 作为中间层连接 SillyTavern 与外部应用，实现数据/功能联动
+
+**安装文档**：
+https://n0vi028.github.io/JS-Slash-Runner-Doc/guide/%E5%85%B3%E4%BA%8E%E9%85%92%E9%A6%86%E5%8A%A9%E6%89%8B/%E4%BB%8B%E7%BB%8D.html
+
+
+## 2. Amily2号助手（总结工具）
+**作者**：诗与酒
+
+**安装文档**：
+https://docs.google.com/document/d/11E7HIFg59up0afv-lV0cAF5G3jzJXCkZK8cBCOMZ9zo/edit?pli=1&amp;tab=t.r4ubeptit1eg#heading=h.a8ivijtjuxkv
+
+
+## 3. 记忆表格（长期聊卡防忘事）
+**作者/贡献者**：木悠、蒜鸟、独奏、LSR、阿不思、孤辰辰、Tt
+**简介**：增强 SillyTavern 长期记忆，支持自定义角色设定、关键事件、物品等，帮助AI更连贯地推演对话。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</guid><pubDate>Thu, 08 Jan 2026 16:58:12 +0000</pubDate></item><item><title>通过 Cloudflare 为纯IPv6 VPS 1Panel搭建网站</title><link>https://blog.20210701.xyz/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</link><description>尽量使用Ubuntu-22.04及以上
+或者Debian11及以上，以防在纯IPV6访问面板出现问题。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</guid><pubDate>Thu, 08 Jan 2026 15:45:02 +0000</pubDate></item><item><title>VPS快速部署酒馆（SillyTavern）教程</title><link>https://blog.20210701.xyz/post/VPS-kuai-su-bu-shu-jiu-guan-%EF%BC%88SillyTavern%EF%BC%89-jiao-cheng.html</link><description>面板推荐使用宝塔面板
+
+1.新建目录sillytavern
+
+```
+mkdir sillytavern
+```
+
+```
+cd sillytavern
+```
+
+2.在文件夹内新建一个文件
+```
+docker-compose.yml
+```
+里面的内容为：
+`默认账户admin密码admin`
+`请注意自己修改！`
+推荐海外节点
+```
+version: '3.9'
+
+
+services:
+  sillytavern:
+    image: ghcr.io/sillytavern/sillytavern:latest
+    container_name: sillytavern
+    environment:
+      - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
+      - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
+      - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
+      - TZ=Asia/Shanghai
+    ports:
+      - '8000:8000'                         # 本地访问端口
+    volumes:
+      - ./config:/home/node/app/config
+      - ./data:/home/node/app/data
+      - ./plugins:/home/node/app/plugins
+      - ./extensions:/home/node/app/public/scripts/extensions/third-party
+    restart: unless-stopped
+```
+推荐国内节点
+```
+version: '3.9'
+
+
+services:
+  sillytavern:
+    image: docker.1ms.run/goolashe/sillytavern:stable
+    container_name: sillytavern
+    environment:
+      - SILLYTAVERN_WHITELISTMODE=false    # ❗关闭IP白名单，避免换IP被封
+      - SILLYTAVERN_BASICAUTHMODE=true     # 🔐 启用基础认证
+      - SILLYTAVERN_BASICAUTHUSER_USERNAME=admin # 你的用户名
+      - SILLYTAVERN_BASICAUTHUSER_PASSWORD=admin # 你的密码
+      - TZ=Asia/Shanghai
+    ports:
+      - '8000:8000'                         # 本地访问端口
+    volumes:
+      - ./config:/home/node/app/config
+      - ./data:/home/node/app/data
+      - ./plugins:/home/node/app/plugins
+      - ./extensions:/home/node/app/public/scripts/extensions/third-party
+    restart: unless-stopped
+```
+
+然后在该目录下运行：
+```
+docker compose up -d
+```
+
+打开浏览器，访问 http://&lt;你的服务器IP&gt;:8000，输入你设定的用户名和密码，就可以进入酒馆的大门了
+
+酒馆官方开源地址[https://github.com/SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern)
+
+
+
+`互联网创作，仅供个人使用，如有侵权，请联系删除`。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/VPS-kuai-su-bu-shu-jiu-guan-%EF%BC%88SillyTavern%EF%BC%89-jiao-cheng.html</guid><pubDate>Thu, 08 Jan 2026 03:38:16 +0000</pubDate></item><item><title>B站批量取消关注移除粉丝</title><link>https://blog.20210701.xyz/post/B-zhan-pi-liang-qu-xiao-guan-zhu-yi-chu-fen-si.html</link><description>浏览器打开B站关注页面，打开浏览器（Console）控制台，输入以下脚本即可。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/B-zhan-pi-liang-qu-xiao-guan-zhu-yi-chu-fen-si.html</guid><pubDate>Mon, 01 Dec 2025 04:52:38 +0000</pubDate></item><item><title>民法物权框架思维导图</title><link>https://blog.20210701.xyz/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</link><description># **民法物权框架思维导图**
+## **一、物权总论**
+### **1. 物权的概念**
+- **物权的定义**
+- **物权的特征**
+### **2. 物权的种类**
+- **自物权与他物权**
+- **用益物权与担保物权**
+### **3. 物权的效力**
+- **排他效力**
+- **优先效力**
+- **追及效力**
+### **4. 物权的变动**
+- **物权变动的原因**
+- **物权变动的公示**
+- **物权变动的原则**
+
+## **二、所有权**
+### **1. 所有权的概念**
+- **所有权的定义**
+- **所有权的特征**
+### **2. 所有权的取得**
+- **原始取得**
+- **继受取得**
+### **3. 所有权的行使**
+- **所有权的权能**
+- **所有权的限制**
+### **4. 共有**
+- **按份共有**
+- **共同共有**
+
+## **三、用益物权**
+### **1. 用益物权的概念**
+- **用益物权的定义**
+- **用益物权的特征**
+### **2. 土地承包经营权**
+- **土地承包经营权的设立**
+- **土地承包经营权的流转**
+### **3. 建设用地使用权**
+- **建设用地使用权的设立**
+- **建设用地使用权的期限**
+### **4. 宅基地使用权**
+- **宅基地使用权的取得、行使和转让**
+- **宅基地使用权的限制**
+- **宅基地使用权的消灭**
+### **5.居住权**
+- **居住权合同**
+- **居住权的设立**
+- **居住权的消灭**
+### **6. 地役权**
+- **地役权的设立**
+- **地役权的效力**
+
+## **四、担保物权**
+### **1. 担保物权的概念**
+- **担保物权的定义**
+- **担保物权的特征**
+### **2. 抵押权**
+- **抵押权的设立**
+- **抵押权的效力**
+- **抵押权的实现**
+### **3. 质权**
+- **动产质权**
+- **权利质权**
+### **4. 留置权**
+- **留置权的成立**
+- **留置权的效力**
+- **留置权的实现**
+
+## **五、占有**
+### **1. 占有的概念**
+- **占有的定义**
+- **占有的分类**
+### **2. 占有的效力**
+- **占有的保护**
+- **占有的推定**
+### **3. 占有的取得与消灭**
+- **占有的取得**
+- **占有的消灭**。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</guid><pubDate>Thu, 27 Nov 2025 01:57:54 +0000</pubDate></item><item><title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title><link>https://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</link><description>## 第一步：创建管理脚本
+
+```bash
+# 创建脚本文件
+nano ~/bot-manager.sh
+```
+
+## 第二步：复制粘贴内容
+
+将以下内容完整复制粘贴到 nano 编辑器中：
+
+```bash
+#!/bin/bash
+
+case '$1' in
+    start)
+        echo '启动机器人服务...'
+        screen -dmS napcat bash -c 'proot-distro login napcat -- bash -c 'xvfb-run -a qq --no-sandbox''
+        screen -dmS astrobot bash -c 'proot-distro login ubuntu -- bash -c 'cd AstrBot &amp;&amp; uv run main.py''
+        echo '启动完成！'
+        ;;
+    stop)
+        echo '停止机器人服务...'
+        screen -S napcat -X quit 2&gt;/dev/null
+        screen -S astrobot -X quit 2&gt;/dev/null
+        echo '已停止'
+        ;;
+    restart)
+        $0 stop
+        sleep 3
+        $0 start
+        ;;
+    status)
+        echo '当前运行状态：'
+        screen -ls
+        ;;
+    napcat)
+        screen -r napcat
+        ;;
+    astrobot)
+        screen -r astrobot
+        ;;
+    *)
+        echo '使用方法: $0 {start|stop|restart|status|napcat|astrobot}'
+        echo '  start    - 启动所有服务'
+        echo '  stop     - 停止所有服务'
+        echo '  restart  - 重启所有服务'
+        echo '  status   - 查看状态'
+        echo '  napcat   - 连接到 NapCat'
+        echo '  astrobot - 连接到 AstrBot'
+        exit 1
+        ;;
+esac
+```
+
+## 第三步：保存文件
+
+按顺序按键：
+
+```
+Ctrl + X → Y → Enter
+```
+
+## 第四步：给脚本添加执行权限
+
+```bash
+chmod +x ~/bot-manager.sh
+```
+
+## 第五步：使用脚本管理机器人
+
+启动所有服务：
+
+```bash
+./bot-manager.sh start
+```
+
+停止所有服务：
+
+```bash
+./bot-manager.sh stop
+```
+
+查看运行状态：
+
+```bash
+./bot-manager.sh status
+```
+
+重启所有服务：
+
+```bash
+./bot-manager.sh restart
+```
+
+连接到 NapCat 控制台：
+
+```bash
+./bot-manager.sh napcat
+```
+
+（要退出控制台，按 Ctrl + A 然后按 D）
+
+连接到 AstrBot 控制台：
+
+```bash
+./bot-manager.sh astrobot
+```
+
+（要退出控制台，按 Ctrl + A 然后按 D）
+
+查看帮助信息：
+
+```bash
+./bot-manager.sh
+```
+
+或者
+
+```bash
+./bot-manager.sh help
+```
+
+## 使用示例流程：
+
+1. 第一次启动：
+   ```bash
+   ./bot-manager.sh start
+   ```
+2. 检查是否正常运行：
+   ```bash
+   ./bot-manager.sh status
+   ```
+3. 查看 NapCat 日志：
+   ```bash
+   ./bot-manager.sh napcat
+   # 看完后按 Ctrl+A, 然后按 D 退出
+   ```
+4. 停止服务：
+   ```bash
+   ./bot-manager.sh stop
+   ```
+## 结束提示
+这样就只需要记住一个脚本文件和几个简单的命令参数，非常方便管理！
+
+在linux一件脚本下的启动命令
+1. 基础持续启动（指定QQ）：输入命令后，程序后台持续运行，断开终端也不受影响
+```
+napcat start 你的QQ号
+```
+
+​
+2. 配置开机自启（彻底无忧，长期运行必配）：配置后服务器重启也会自动启动NapCatQQ
+```
+napcat startup 你的QQ号
+```
+。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</guid><pubDate>Wed, 27 Aug 2025 19:21:23 +0000</pubDate></item><item><title>人生哲理2025.7.29</title><link>https://blog.20210701.xyz/post/ren-sheng-zhe-li-2025.7.29.html</link><description>'你可以阴郁，可以懒散，可以不适时地计较，过分敏感，可以有些不知足、暴躁、嫉妒、小气，但要记得拷问自我，必须追求善良，尽力坦荡，永远正直'。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/ren-sheng-zhe-li-2025.7.29.html</guid><pubDate>Tue, 29 Jul 2025 02:14:48 +0000</pubDate></item><item><title>“知足者常乐”</title><link>https://blog.20210701.xyz/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</link><description>果然，晚饭后就下起了雨，但我在心里却很开心。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</guid><pubDate>Sat, 14 Jun 2025 15:57:08 +0000</pubDate></item><item><title>一个幽默的垃圾桶</title><link>https://blog.20210701.xyz/post/yi-ge-you-mo-de-la-ji-tong.html</link><description>![1JPG](https://blog.20210701.xyz/pVARssK.jpg)。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/yi-ge-you-mo-de-la-ji-tong.html</guid><pubDate>Sat, 14 Jun 2025 15:39:42 +0000</pubDate></item><item><title>《“躺平”也是一种艺术》</title><link>https://blog.20210701.xyz/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</link><description>躺平也是一种艺术
+近年来，一种新生代的生活态度在年轻人中逐渐兴起，那就是“躺平”。</description><guid isPermaLink="true">https://blog.20210701.xyz/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</guid><pubDate>Sat, 14 Jun 2025 12:24:57 +0000</pubDate></item><item><title>关于本站</title><link>https://blog.20210701.xyz/about.html</link><description>🌟 关于本站 | About This Blog
+
+大家好！我是一名在校学生，自初中起便热衷于在网络世界探索未知，这份对互联网的好奇与日俱增。</description><guid isPermaLink="true">https://blog.20210701.xyz/about.html</guid><pubDate>Sat, 14 Jun 2025 13:08:22 +0000</pubDate></item><item><title>左邻右舍</title><link>https://blog.20210701.xyz/link.html</link><description>有趣的朋友们*^_^*
+**友情链接**
+- [Qgxs个人引导页](https://www.20210701.xyz/)
+- [Qgxs博客](https://blog.20210701.xyz)  
+- [ping站长工具](https://www.itdog.cn/ping)
+- [中国共产党成立100周年纪念](https://20210701.xyz)
+- [小免导航](https://moe520.com/)
+- [从 App Store 上获取应用图标](https://icon.yukonga.top/)
+- [markdown格式的测试页面](https://blog.meekdai.com/post/markdown-ce-shi-ye-mian.html)
+- [markor编辑app](https://aa.downabc.com/app/202303/22/markor_269875.apk?tk=eJIoOwdIMcNkMkMwYIMwcIMIMUIMOAIYOJYJbJMYOcLFaIIoOEMEOAf=y3jySiC6T2z0z2iiy6iiC6j0TsnijsmiitXr3fj5D1mwysnijxT0T1Q=)
+- [WeChatBot Web AI角色扮演模拟器](https://bot.qgxs.dpdns.org/)
+- [GitHub代理加速节点](https://gh-proxy.com/)
+- [移除付费墙](https://paywallbuster.com/)
+- [创造鼠标光标](https://doodle-cursor-maker.figma.site/)
+- [测算工作值不值得做](https://worthjob.zippland.com/?ref=pidoutv.com)
+- [中国法律服务](https://www.12348.gov.cn/)
+- [学种菜](https://www.xuezhongcai.com/)
+
+
+**友链申请**
+✅ 网站能够正常访问
+✅ 网站类型为合法内容
+✅ 网站需要包含本站友链
+```
+name: Qgxs&amp;Blog
+url: https://blog.20210701.xyz/
+avatar: https://avatars.githubusercontent.com/u/130044290?v=4
+desc: 放松心情，漫游四处，处处美景。</description><guid isPermaLink="true">https://blog.20210701.xyz/link.html</guid><pubDate>Sat, 14 Jun 2025 14:14:51 +0000</pubDate></item></channel></rss>
