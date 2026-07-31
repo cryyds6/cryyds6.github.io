@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://www.20210701.xyz</link><description>放松心情，漫游四处，处处美景。我们已经更换为新的博客站点www.20210701.xyz</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://www.20210701.xyz/icon.jpeg</url><title>avatar</title><link>https://www.20210701.xyz</link></image><lastBuildDate>Fri, 31 Jul 2026 09:42:52 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>使用Docker部署哪吒监控v1 CloudFlare Tunnel版面板端</title><link>https://www.20210701.xyz/post/shi-yong-Docker-bu-shu-na-zha-jian-kong-v1%20CloudFlare%20Tunnel-ban-mian-ban-duan.html</link><description># 使用Docker部署哪吒监控v1 CloudFlare Tunnel版面板端
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Qgxs&amp;Blog</title><link>https://cryyds6.github.io</link><description>放松心情，漫游四处，处处美景。我们已经更换为新的博客站点 https://www.20210701.xyz</description><copyright>Qgxs&amp;Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://www.20210701.xyz/icon.jpeg</url><title>avatar</title><link>https://cryyds6.github.io</link></image><lastBuildDate>Fri, 31 Jul 2026 09:47:19 +0000</lastBuildDate><managingEditor>Qgxs&amp;Blog</managingEditor><ttl>60</ttl><webMaster>Qgxs&amp;Blog</webMaster><item><title>使用Docker部署哪吒监控v1 CloudFlare Tunnel版面板端</title><link>https://cryyds6.github.io/post/shi-yong-Docker-bu-shu-na-zha-jian-kong-v1%20CloudFlare%20Tunnel-ban-mian-ban-duan.html</link><description># 使用Docker部署哪吒监控v1 CloudFlare Tunnel版面板端
 ## 哪吒面板简介
-哪吒监控是一款自托管、轻量级的服务器和网站监控运维工具。</description><guid isPermaLink="true">https://www.20210701.xyz/post/shi-yong-Docker-bu-shu-na-zha-jian-kong-v1%20CloudFlare%20Tunnel-ban-mian-ban-duan.html</guid><pubDate>Fri, 31 Jul 2026 09:28:41 +0000</pubDate></item><item><title>Mizuki 博客搭建指南</title><link>https://www.20210701.xyz/post/Mizuki%20-bo-ke-da-jian-zhi-nan.html</link><description># Mizuki 博客搭建教程指南
+哪吒监控是一款自托管、轻量级的服务器和网站监控运维工具。</description><guid isPermaLink="true">https://cryyds6.github.io/post/shi-yong-Docker-bu-shu-na-zha-jian-kong-v1%20CloudFlare%20Tunnel-ban-mian-ban-duan.html</guid><pubDate>Fri, 31 Jul 2026 09:28:41 +0000</pubDate></item><item><title>Mizuki 博客搭建指南</title><link>https://cryyds6.github.io/post/Mizuki%20-bo-ke-da-jian-zhi-nan.html</link><description># Mizuki 博客搭建教程指南
 
 ## 一、前期准备
 
-**核心能力**：具备基础问题解决能力，遇到疑问优先思考、主动搜索，搜索无果可借助AI工具，避免盲目提问；能同时处理简单多任务。</description><guid isPermaLink="true">https://www.20210701.xyz/post/Mizuki%20-bo-ke-da-jian-zhi-nan.html</guid><pubDate>Tue, 24 Feb 2026 17:44:18 +0000</pubDate></item><item><title>Shadowsocks 四版本一键安装脚本使用教程</title><link>https://www.20210701.xyz/post/Shadowsocks%20-si-ban-ben-yi-jian-an-zhuang-jiao-ben-shi-yong-jiao-cheng.html</link><description># Shadowsocks 四版本一键安装脚本使用教程
+**核心能力**：具备基础问题解决能力，遇到疑问优先思考、主动搜索，搜索无果可借助AI工具，避免盲目提问；能同时处理简单多任务。</description><guid isPermaLink="true">https://cryyds6.github.io/post/Mizuki%20-bo-ke-da-jian-zhi-nan.html</guid><pubDate>Tue, 24 Feb 2026 17:44:18 +0000</pubDate></item><item><title>Shadowsocks 四版本一键安装脚本使用教程</title><link>https://cryyds6.github.io/post/Shadowsocks%20-si-ban-ben-yi-jian-an-zhuang-jiao-ben-shi-yong-jiao-cheng.html</link><description># Shadowsocks 四版本一键安装脚本使用教程
 
 ## 本脚本适用环境
 系统支持：CentOS 6+，Debian 7+，Ubuntu 12+
@@ -19,7 +19,7 @@
 协议（protocol）：自己设定（如不设定，默认为 origin）（仅限 ShadowsocksR 版）
 混淆（obfs）：自己设定（如不设定，默认为 plain）（仅限 ShadowsocksR 版）
 
-备注：脚本默认创建单用户配置文件，如需配置多用户，请手动修改相应的配置文件后重启即可。</description><guid isPermaLink="true">https://www.20210701.xyz/post/Shadowsocks%20-si-ban-ben-yi-jian-an-zhuang-jiao-ben-shi-yong-jiao-cheng.html</guid><pubDate>Fri, 20 Feb 2026 17:19:25 +0000</pubDate></item><item><title>18秒复刻同款Gmeek静态博客</title><link>https://www.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</link><description># 本博客同款Gmeek静态博客
+备注：脚本默认创建单用户配置文件，如需配置多用户，请手动修改相应的配置文件后重启即可。</description><guid isPermaLink="true">https://cryyds6.github.io/post/Shadowsocks%20-si-ban-ben-yi-jian-an-zhuang-jiao-ben-shi-yong-jiao-cheng.html</guid><pubDate>Fri, 20 Feb 2026 17:19:25 +0000</pubDate></item><item><title>18秒复刻同款Gmeek静态博客</title><link>https://cryyds6.github.io/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</link><description># 本博客同款Gmeek静态博客
 我的博客:[blog.20210701.xyz](https://blog.20210701.xyz)
 
 前期准备
@@ -28,11 +28,11 @@
 
 - **_以下为非必须_**
 - Github手机版（如果需要方便发文，手机版可以直接用）
-- Markor手机软件（类似的有很多能编辑Markdown的。</description><guid isPermaLink="true">https://www.20210701.xyz/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</guid><pubDate>Thu, 29 Jan 2026 06:33:27 +0000</pubDate></item><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://www.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
+- Markor手机软件（类似的有很多能编辑Markdown的。</description><guid isPermaLink="true">https://cryyds6.github.io/post/18-miao-fu-ke-tong-kuan-Gmeek-jing-tai-bo-ke.html</guid><pubDate>Thu, 29 Jan 2026 06:33:27 +0000</pubDate></item><item><title>Linux服务器性能网络测试脚本合集转载</title><link>https://cryyds6.github.io/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</link><description># 1. 来自 tyooe.com 的 Linux 服务器性能/网络测试脚本合集(转载)
 &gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
 **来源**：[https://tyooe.com/linux-benchmark-scripts](https://tyooe.com/linux-benchmark-scripts)
 
-**用途**：适用于新购 Linux 服务器后，快速评估硬件性能、网络连通性、流媒体解锁状态等，包含综合测试、专项性能测试、网络测试、解锁检测四大类脚本，可直接复制命令执行。</description><guid isPermaLink="true">https://www.20210701.xyz/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</guid><pubDate>Wed, 28 Jan 2026 15:36:13 +0000</pubDate></item><item><title>VPS融合怪服务器测评项目GO版本</title><link>https://www.20210701.xyz/post/VPS-rong-he-guai-fu-wu-qi-ce-ping-xiang-mu-GO-ban-ben.html</link><description>&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
+**用途**：适用于新购 Linux 服务器后，快速评估硬件性能、网络连通性、流媒体解锁状态等，包含综合测试、专项性能测试、网络测试、解锁检测四大类脚本，可直接复制命令执行。</description><guid isPermaLink="true">https://cryyds6.github.io/post/Linux-fu-wu-qi-xing-neng-wang-luo-ce-shi-jiao-ben-he-ji-zhuan-zai.html</guid><pubDate>Wed, 28 Jan 2026 15:36:13 +0000</pubDate></item><item><title>VPS融合怪服务器测评项目GO版本</title><link>https://cryyds6.github.io/post/VPS-rong-he-guai-fu-wu-qi-ce-ping-xiang-mu-GO-ban-ben.html</link><description>&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
 融合怪测评项目 - GO版本
 开源项目地址:[https://github.com/oneclickvirt/ecs](https://github.com/oneclickvirt/ecs)
 
@@ -52,7 +52,7 @@
 | s390x                     | s390x        |                           |               |
 | riscv64                   |              |                           |               |
 
-&gt; 更多架构与系统请自行测试或编译，如有问题请开 issues。</description><guid isPermaLink="true">https://www.20210701.xyz/post/VPS-rong-he-guai-fu-wu-qi-ce-ping-xiang-mu-GO-ban-ben.html</guid><pubDate>Wed, 28 Jan 2026 14:32:22 +0000</pubDate></item><item><title>一个简洁的在线音乐页面</title><link>https://www.20210701.xyz/post/yi-ge-jian-ji-de-zai-xian-yin-le-ye-mian.html</link><description>网易云网页接口
+&gt; 更多架构与系统请自行测试或编译，如有问题请开 issues。</description><guid isPermaLink="true">https://cryyds6.github.io/post/VPS-rong-he-guai-fu-wu-qi-ce-ping-xiang-mu-GO-ban-ben.html</guid><pubDate>Wed, 28 Jan 2026 14:32:22 +0000</pubDate></item><item><title>一个简洁的在线音乐页面</title><link>https://cryyds6.github.io/post/yi-ge-jian-ji-de-zai-xian-yin-le-ye-mian.html</link><description>网易云网页接口
 可以修改歌单
 自适应页面
 可以托管Cloudflare 
@@ -60,7 +60,7 @@
 当做小页面放在博客里面，挺不错的
 我的演示页面:[music.20210701.xyz](https://music.20210701.xyz)
 下载地址:https://wwbtv.lanzout.com/imWHg3h57zeh
-&lt;img width='1643' height='894' alt='Image' src='https://github.com/user-attachments/assets/4b7bed03-ed00-4f47-a5c8-b82931e28655' /&gt;。</description><guid isPermaLink="true">https://www.20210701.xyz/post/yi-ge-jian-ji-de-zai-xian-yin-le-ye-mian.html</guid><pubDate>Tue, 27 Jan 2026 12:39:47 +0000</pubDate></item><item><title>&gt; 一个可能有效的防攻击代码…</title><link>https://www.20210701.xyz/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</link><description>&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
+&lt;img width='1643' height='894' alt='Image' src='https://github.com/user-attachments/assets/4b7bed03-ed00-4f47-a5c8-b82931e28655' /&gt;。</description><guid isPermaLink="true">https://cryyds6.github.io/post/yi-ge-jian-ji-de-zai-xian-yin-le-ye-mian.html</guid><pubDate>Tue, 27 Jan 2026 12:39:47 +0000</pubDate></item><item><title>&gt; 一个可能有效的防攻击代码…</title><link>https://cryyds6.github.io/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</link><description>&gt; 互联网创作，仅供个人使用，如有侵权，请联系删除
 &gt;来源网络地址:https://loli520.com/286.html
 我的演示页面: [gj.qqgxs.qzz.io](https://gj.qqgxs.qzz.io)
 ```
@@ -228,7 +228,7 @@
   &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```。</description><guid isPermaLink="true">https://www.20210701.xyz/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</guid><pubDate>Tue, 27 Jan 2026 12:07:15 +0000</pubDate></item><item><title>Hello&amp;Qgxs引导页</title><link>https://www.20210701.xyz/post/Hello%26Qgxs-yin-dao-ye.html</link><description>Hello&amp;Qgxs引导页
+```。</description><guid isPermaLink="true">https://cryyds6.github.io/post/-%20-yi-ge-ke-neng-you-xiao-de-fang-gong-ji-dai-ma-%E2%80%A6.html</guid><pubDate>Tue, 27 Jan 2026 12:07:15 +0000</pubDate></item><item><title>Hello&amp;Qgxs引导页</title><link>https://cryyds6.github.io/post/Hello%26Qgxs-yin-dao-ye.html</link><description>Hello&amp;Qgxs引导页
 html单页
 AI写的
 自适应页面
@@ -279,7 +279,7 @@ AI写的
         &lt;!-- 紧凑版欢迎文本 --&gt;
         &lt;div class='welcome-text'&gt;
             &lt;p&gt;
-                &lt;span style='color: rgba(14, 165, 233, 0.9);'&gt;欢迎到来。</description><guid isPermaLink="true">https://www.20210701.xyz/post/Hello%26Qgxs-yin-dao-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:49:53 +0000</pubDate></item><item><title>中国共产党成立100周年纪念单页</title><link>https://www.20210701.xyz/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</link><description>html单页
+                &lt;span style='color: rgba(14, 165, 233, 0.9);'&gt;欢迎到来。</description><guid isPermaLink="true">https://cryyds6.github.io/post/Hello%26Qgxs-yin-dao-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:49:53 +0000</pubDate></item><item><title>中国共产党成立100周年纪念单页</title><link>https://cryyds6.github.io/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</link><description>html单页
 AI写的
 自适应页面
 可以托管Cloudflare 
@@ -524,7 +524,7 @@ AI写的
       &lt;div class='card' role='region' aria-labelledby='aboutTitle'&gt;
         &lt;h2 id='aboutTitle'&gt;百年光辉 · 百年征程&lt;/h2&gt;
         &lt;p&gt;
-          百年，是历史在时光上刻下的深深纹理；百年，也是每一次初心的温热延续。</description><guid isPermaLink="true">https://www.20210701.xyz/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:47:47 +0000</pubDate></item><item><title>一个粉不拉几的宝塔默认页面系列</title><link>https://www.20210701.xyz/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-ye-mian-xi-lie.html</link><description>### 1.站点搭建成功提示
+          百年，是历史在时光上刻下的深深纹理；百年，也是每一次初心的温热延续。</description><guid isPermaLink="true">https://cryyds6.github.io/post/zhong-guo-gong-chan-dang-cheng-li-100-zhou-nian-ji-nian-dan-ye.html</guid><pubDate>Tue, 27 Jan 2026 11:47:47 +0000</pubDate></item><item><title>一个粉不拉几的宝塔默认页面系列</title><link>https://cryyds6.github.io/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-ye-mian-xi-lie.html</link><description>### 1.站点搭建成功提示
 ![1768750745561_edit_723285037835753.jpg](https://github.com/user-attachments/assets/958a6118-0a9e-4a8b-8d4b-8c7ee41b3949)
 
 ```
@@ -1196,7 +1196,7 @@ async function handleRequest(request) {
   })
 }
 
-```。</description><guid isPermaLink="true">https://www.20210701.xyz/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-ye-mian-xi-lie.html</guid><pubDate>Sun, 18 Jan 2026 15:40:30 +0000</pubDate></item><item><title>本站Gmeek的进阶功能</title><link>https://www.20210701.xyz/post/ben-zhan-Gmeek-de-jin-jie-gong-neng.html</link><description>为了使得Gmeek的功能更加的丰富，我添加了插件的功能，目前已经有几个插件可以使用。</description><guid isPermaLink="true">https://www.20210701.xyz/post/ben-zhan-Gmeek-de-jin-jie-gong-neng.html</guid><pubDate>Sat, 10 Jan 2026 07:56:11 +0000</pubDate></item><item><title>酒馆实用插件推荐</title><link>https://www.20210701.xyz/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</link><description># SillyTaverm实用插件&amp;资源推荐
+```。</description><guid isPermaLink="true">https://cryyds6.github.io/post/yi-ge-fen-bu-la-ji-de-bao-ta-mo-ren-ye-mian-xi-lie.html</guid><pubDate>Sun, 18 Jan 2026 15:40:30 +0000</pubDate></item><item><title>本站Gmeek的进阶功能</title><link>https://cryyds6.github.io/post/ben-zhan-Gmeek-de-jin-jie-gong-neng.html</link><description>为了使得Gmeek的功能更加的丰富，我添加了插件的功能，目前已经有几个插件可以使用。</description><guid isPermaLink="true">https://cryyds6.github.io/post/ben-zhan-Gmeek-de-jin-jie-gong-neng.html</guid><pubDate>Sat, 10 Jan 2026 07:56:11 +0000</pubDate></item><item><title>酒馆实用插件推荐</title><link>https://cryyds6.github.io/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</link><description># SillyTaverm实用插件&amp;资源推荐
 
 ## 1. 酒馆助手 (Tavern-Helper)
 **作者**：@𝚔𝚊𝚔𝚊𝚊🫠、@青空莉正辟谣
@@ -1218,8 +1218,8 @@ https://docs.google.com/document/d/11E7HIFg59up0afv-lV0cAF5G3jzJXCkZK8cBCOMZ9zo/
 
 ## 3. 记忆表格（长期聊卡防忘事）
 **作者/贡献者**：木悠、蒜鸟、独奏、LSR、阿不思、孤辰辰、Tt
-**简介**：增强 SillyTavern 长期记忆，支持自定义角色设定、关键事件、物品等，帮助AI更连贯地推演对话。</description><guid isPermaLink="true">https://www.20210701.xyz/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</guid><pubDate>Thu, 08 Jan 2026 16:58:12 +0000</pubDate></item><item><title>通过 Cloudflare 为纯IPv6 VPS 1Panel搭建网站</title><link>https://www.20210701.xyz/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</link><description>尽量使用Ubuntu-22.04及以上
-或者Debian11及以上，以防在纯IPV6访问面板出现问题。</description><guid isPermaLink="true">https://www.20210701.xyz/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</guid><pubDate>Thu, 08 Jan 2026 15:45:02 +0000</pubDate></item><item><title>VPS快速部署酒馆（SillyTavern）教程</title><link>https://www.20210701.xyz/post/VPS-kuai-su-bu-shu-jiu-guan-%EF%BC%88SillyTavern%EF%BC%89-jiao-cheng.html</link><description>面板推荐使用宝塔面板
+**简介**：增强 SillyTavern 长期记忆，支持自定义角色设定、关键事件、物品等，帮助AI更连贯地推演对话。</description><guid isPermaLink="true">https://cryyds6.github.io/post/jiu-guan-shi-yong-cha-jian-tui-jian.html</guid><pubDate>Thu, 08 Jan 2026 16:58:12 +0000</pubDate></item><item><title>通过 Cloudflare 为纯IPv6 VPS 1Panel搭建网站</title><link>https://cryyds6.github.io/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</link><description>尽量使用Ubuntu-22.04及以上
+或者Debian11及以上，以防在纯IPV6访问面板出现问题。</description><guid isPermaLink="true">https://cryyds6.github.io/post/tong-guo-%20Cloudflare%20-wei-chun-IPv6%20VPS%201Panel-da-jian-wang-zhan.html</guid><pubDate>Thu, 08 Jan 2026 15:45:02 +0000</pubDate></item><item><title>VPS快速部署酒馆（SillyTavern）教程</title><link>https://cryyds6.github.io/post/VPS-kuai-su-bu-shu-jiu-guan-%EF%BC%88SillyTavern%EF%BC%89-jiao-cheng.html</link><description>面板推荐使用宝塔面板
 
 1.新建目录sillytavern
 
@@ -1298,7 +1298,7 @@ docker compose up -d
 
 
 
-`互联网创作，仅供个人使用，如有侵权，请联系删除`。</description><guid isPermaLink="true">https://www.20210701.xyz/post/VPS-kuai-su-bu-shu-jiu-guan-%EF%BC%88SillyTavern%EF%BC%89-jiao-cheng.html</guid><pubDate>Thu, 08 Jan 2026 03:38:16 +0000</pubDate></item><item><title>B站批量取消关注移除粉丝</title><link>https://www.20210701.xyz/post/B-zhan-pi-liang-qu-xiao-guan-zhu-yi-chu-fen-si.html</link><description>浏览器打开B站关注页面，打开浏览器（Console）控制台，输入以下脚本即可。</description><guid isPermaLink="true">https://www.20210701.xyz/post/B-zhan-pi-liang-qu-xiao-guan-zhu-yi-chu-fen-si.html</guid><pubDate>Mon, 01 Dec 2025 04:52:38 +0000</pubDate></item><item><title>民法物权框架思维导图</title><link>https://www.20210701.xyz/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</link><description># **民法物权框架思维导图**
+`互联网创作，仅供个人使用，如有侵权，请联系删除`。</description><guid isPermaLink="true">https://cryyds6.github.io/post/VPS-kuai-su-bu-shu-jiu-guan-%EF%BC%88SillyTavern%EF%BC%89-jiao-cheng.html</guid><pubDate>Thu, 08 Jan 2026 03:38:16 +0000</pubDate></item><item><title>B站批量取消关注移除粉丝</title><link>https://cryyds6.github.io/post/B-zhan-pi-liang-qu-xiao-guan-zhu-yi-chu-fen-si.html</link><description>浏览器打开B站关注页面，打开浏览器（Console）控制台，输入以下脚本即可。</description><guid isPermaLink="true">https://cryyds6.github.io/post/B-zhan-pi-liang-qu-xiao-guan-zhu-yi-chu-fen-si.html</guid><pubDate>Mon, 01 Dec 2025 04:52:38 +0000</pubDate></item><item><title>民法物权框架思维导图</title><link>https://cryyds6.github.io/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</link><description># **民法物权框架思维导图**
 ## **一、物权总论**
 ### **1. 物权的概念**
 - **物权的定义**
@@ -1376,7 +1376,7 @@ docker compose up -d
 - **占有的推定**
 ### **3. 占有的取得与消灭**
 - **占有的取得**
-- **占有的消灭**。</description><guid isPermaLink="true">https://www.20210701.xyz/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</guid><pubDate>Thu, 27 Nov 2025 01:57:54 +0000</pubDate></item><item><title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title><link>https://www.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</link><description>## 第一步：创建管理脚本
+- **占有的消灭**。</description><guid isPermaLink="true">https://cryyds6.github.io/post/min-fa-wu-quan-kuang-jia-si-wei-dao-tu.html</guid><pubDate>Thu, 27 Nov 2025 01:57:54 +0000</pubDate></item><item><title>一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本</title><link>https://cryyds6.github.io/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</link><description>## 第一步：创建管理脚本
 
 ```bash
 # 创建脚本文件
@@ -1532,12 +1532,12 @@ napcat start 你的QQ号
 ```
 napcat startup 你的QQ号
 ```
-。</description><guid isPermaLink="true">https://www.20210701.xyz/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</guid><pubDate>Wed, 27 Aug 2025 19:21:23 +0000</pubDate></item><item><title>人生哲理2025.7.29</title><link>https://www.20210701.xyz/post/ren-sheng-zhe-li-2025.7.29.html</link><description>'你可以阴郁，可以懒散，可以不适时地计较，过分敏感，可以有些不知足、暴躁、嫉妒、小气，但要记得拷问自我，必须追求善良，尽力坦荡，永远正直'。</description><guid isPermaLink="true">https://www.20210701.xyz/post/ren-sheng-zhe-li-2025.7.29.html</guid><pubDate>Tue, 29 Jul 2025 02:14:48 +0000</pubDate></item><item><title>“知足者常乐”</title><link>https://www.20210701.xyz/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</link><description>果然，晚饭后就下起了雨，但我在心里却很开心。</description><guid isPermaLink="true">https://www.20210701.xyz/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</guid><pubDate>Sat, 14 Jun 2025 15:57:08 +0000</pubDate></item><item><title>一个幽默的垃圾桶</title><link>https://www.20210701.xyz/post/yi-ge-you-mo-de-la-ji-tong.html</link><description>![1JPG](https://blog.20210701.xyz/pVARssK.jpg)。</description><guid isPermaLink="true">https://www.20210701.xyz/post/yi-ge-you-mo-de-la-ji-tong.html</guid><pubDate>Sat, 14 Jun 2025 15:39:42 +0000</pubDate></item><item><title>《“躺平”也是一种艺术》</title><link>https://www.20210701.xyz/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</link><description>躺平也是一种艺术
-近年来，一种新生代的生活态度在年轻人中逐渐兴起，那就是“躺平”。</description><guid isPermaLink="true">https://www.20210701.xyz/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</guid><pubDate>Sat, 14 Jun 2025 12:24:57 +0000</pubDate></item><item><title>关于本站</title><link>https://www.20210701.xyz/about.html</link><description># 我们已经更换为新的博客站点[www.20210701.xyz](www.20210701.xyz)
+。</description><guid isPermaLink="true">https://cryyds6.github.io/post/yi-ge-AstrBot-zai-Termux-rong-qi-bu-shu-shi-kuai-su-qi-dong-AstrBot-ji-NapCatQQ-jiao-ben.html</guid><pubDate>Wed, 27 Aug 2025 19:21:23 +0000</pubDate></item><item><title>人生哲理2025.7.29</title><link>https://cryyds6.github.io/post/ren-sheng-zhe-li-2025.7.29.html</link><description>'你可以阴郁，可以懒散，可以不适时地计较，过分敏感，可以有些不知足、暴躁、嫉妒、小气，但要记得拷问自我，必须追求善良，尽力坦荡，永远正直'。</description><guid isPermaLink="true">https://cryyds6.github.io/post/ren-sheng-zhe-li-2025.7.29.html</guid><pubDate>Tue, 29 Jul 2025 02:14:48 +0000</pubDate></item><item><title>“知足者常乐”</title><link>https://cryyds6.github.io/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</link><description>果然，晚饭后就下起了雨，但我在心里却很开心。</description><guid isPermaLink="true">https://cryyds6.github.io/post/%E2%80%9C-zhi-zu-zhe-chang-le-%E2%80%9D.html</guid><pubDate>Sat, 14 Jun 2025 15:57:08 +0000</pubDate></item><item><title>一个幽默的垃圾桶</title><link>https://cryyds6.github.io/post/yi-ge-you-mo-de-la-ji-tong.html</link><description>![1JPG](https://blog.20210701.xyz/pVARssK.jpg)。</description><guid isPermaLink="true">https://cryyds6.github.io/post/yi-ge-you-mo-de-la-ji-tong.html</guid><pubDate>Sat, 14 Jun 2025 15:39:42 +0000</pubDate></item><item><title>《“躺平”也是一种艺术》</title><link>https://cryyds6.github.io/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</link><description>躺平也是一种艺术
+近年来，一种新生代的生活态度在年轻人中逐渐兴起，那就是“躺平”。</description><guid isPermaLink="true">https://cryyds6.github.io/post/%E3%80%8A%E2%80%9C-tang-ping-%E2%80%9D-ye-shi-yi-zhong-yi-shu-%E3%80%8B.html</guid><pubDate>Sat, 14 Jun 2025 12:24:57 +0000</pubDate></item><item><title>关于本站</title><link>https://cryyds6.github.io/about.html</link><description># 我们已经更换为新的博客站点[www.20210701.xyz](www.20210701.xyz)
 
 🌟 关于本站 | About This Blog
 
-大家好！我是一名在校学生，自初中起便热衷于在网络世界探索未知，这份对互联网的好奇与日俱增。</description><guid isPermaLink="true">https://www.20210701.xyz/about.html</guid><pubDate>Sat, 14 Jun 2025 13:08:22 +0000</pubDate></item><item><title>左邻右舍</title><link>https://www.20210701.xyz/link.html</link><description># 我们已经更换为新的博客站点[www.20210701.xyz](www.20210701.xyz)
+大家好！我是一名在校学生，自初中起便热衷于在网络世界探索未知，这份对互联网的好奇与日俱增。</description><guid isPermaLink="true">https://cryyds6.github.io/about.html</guid><pubDate>Sat, 14 Jun 2025 13:08:22 +0000</pubDate></item><item><title>左邻右舍</title><link>https://cryyds6.github.io/link.html</link><description># 我们已经更换为新的博客站点[www.20210701.xyz](www.20210701.xyz)
 
 有趣的朋友们*^_^*
 **友情链接**
@@ -1566,4 +1566,4 @@ napcat startup 你的QQ号
 name: Qgxs&amp;Blog
 url: https://www.20210701.xyz/
 avatar: https://www.20210701.xyz/icon.jpeg
-desc: 放松心情，漫游四处，处处美景。</description><guid isPermaLink="true">https://www.20210701.xyz/link.html</guid><pubDate>Sat, 14 Jun 2025 14:14:51 +0000</pubDate></item></channel></rss>
+desc: 放松心情，漫游四处，处处美景。</description><guid isPermaLink="true">https://cryyds6.github.io/link.html</guid><pubDate>Sat, 14 Jun 2025 14:14:51 +0000</pubDate></item></channel></rss>
